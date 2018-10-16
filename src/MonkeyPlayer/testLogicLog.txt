@@ -1,0 +1,7 @@
+{"type": "drag", "points": [{"x": 200, "y": 350 }, {"x": 400, "y": 250 } ], "down": 2313, "up": 2314 }
+{"type": "press", "keys": [{"key": "KEYCODE_SHIFT_LEFT"}, {"key": "KEYCODE_Y"} ], "down": 123123, "up": 123124 } 
+{"type": "touch", "y": 435, "down": 78884, "up": 78884, "x": 285 }
+{"type": "hello"}
+{"type": "dont"}
+{"type": "touch", "x": 285}
+{"type": "touch", "y": 'hello', "down": 78884, "up": 78884, "x": 285 }

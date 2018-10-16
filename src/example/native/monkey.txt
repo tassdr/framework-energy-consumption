@@ -1,0 +1,6 @@
+{"type": "drag", "points": [{"x": 500, "y": 300 }, {"x": 500, "y": 1200 } ], "down": 1, "up": 2 }
+{"type": "drag", "points": [{"x": 500, "y": 1200 }, {"x": 500, "y": 300 } ], "down": 3, "up": 4 }
+{"type": "press", "keys": [{"key": "KEYCODE_1"} ], "down": 5, "up": 6 }
+{"type": "press", "keys": [{"key": "KEYCODE_PLUS"} ], "down": 7, "up": 8 }
+{"type": "press", "keys": [{"key": "KEYCODE_1"} ], "down": 9, "up": 10 }
+{"type": "touch", "y": 1600, "down": 11, "up": 1011, "x": 600 }

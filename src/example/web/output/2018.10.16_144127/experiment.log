@@ -1,0 +1,1405 @@
+2018-10-16 14:41:27,911:INFO:ExperimentFactory:/Users/Luca/Documents/Università/Magistrale/Secondo_anno/Green_Lab/android-runner/example/web/config.json
+2018-10-16 14:41:27,946:DEBUG:ExperimentRunner.Adb:Device list:
+{0: 'KYVKK16119600056'}
+2018-10-16 14:41:27,955:DEBUG:Android:Initialized
+2018-10-16 14:41:28,026:DEBUG:Trepn:Initialized
+2018-10-16 14:41:28,031:DEBUG:Python2:Imported /Users/Luca/Documents/Università/Magistrale/Secondo_anno/Green_Lab/android-runner/example/web/before_experiment.py
+2018-10-16 14:41:28,031:DEBUG:Python2:Imported /Users/Luca/Documents/Università/Magistrale/Secondo_anno/Green_Lab/android-runner/example/web/before_run.py
+2018-10-16 14:41:28,032:DEBUG:Python2:Imported /Users/Luca/Documents/Università/Magistrale/Secondo_anno/Green_Lab/android-runner/example/web/after_launch.py
+2018-10-16 14:41:28,033:DEBUG:Python2:Imported /Users/Luca/Documents/Università/Magistrale/Secondo_anno/Green_Lab/android-runner/example/web/adb.py
+2018-10-16 14:41:28,034:DEBUG:Python2:Imported /Users/Luca/Documents/Università/Magistrale/Secondo_anno/Green_Lab/android-runner/example/web/before_close.py
+2018-10-16 14:41:28,034:DEBUG:Python2:Imported /Users/Luca/Documents/Università/Magistrale/Secondo_anno/Green_Lab/android-runner/example/web/after_run.py
+2018-10-16 14:41:28,035:DEBUG:Python2:Imported /Users/Luca/Documents/Università/Magistrale/Secondo_anno/Green_Lab/android-runner/example/web/after_experiment.py
+2018-10-16 14:41:28,036:DEBUG:Python2:Imported /Users/Luca/Documents/Università/Magistrale/Secondo_anno/Green_Lab/android-runner/example/web/aggregation.py
+2018-10-16 14:41:28,443:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "pm list packages" returned: 
+package:com.google.android.youtube
+package:com.android.providers.telephony
+package:com.android.sdm.plugins.connmo
+package:com.google.android.googlequicksearchbox
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.huawei.entitlement
+package:com.google.android.onetimeinitializer
+package:com.android.wallpapercropper
+package:com.quicinc.cne.CNEService
+package:com.android.documentsui
+package:com.android.externalstorage
+package:com.google.android.apps.enterprise.dmagent
+package:com.android.htmlviewer
+package:com.huawei.callstatisticsutils
+package:com.android.mms.service
+package:com.android.providers.downloads
+package:com.google.android.apps.messaging
+package:android.autoinstalls.config.google.nexus
+package:com.google.android.configupdater
+package:com.android.defcontainer
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.qualcomm.cabl
+package:com.android.certinstaller
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:android
+package:com.android.hotwordenrollment
+package:com.google.android.apps.inputmethod.hindi
+package:com.android.nfc
+package:com.android.stk
+package:com.android.backupconfirm
+package:com.google.android.launcher
+package:com.google.android.deskclock
+package:org.codeaurora.ims
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.android.sdm.plugins.sprintdm
+package:com.google.android.instantapps.supervisor
+package:com.google.android.setupwizard
+package:com.qualcomm.qcrilmsgtunnel
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.google.android.music
+package:com.android.printspooler
+package:com.android.sdm.plugins.diagmon
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.google.android.dialer
+package:com.google.android.apps.cloudprint
+package:com.android.musicfx
+package:com.google.android.apps.docs
+package:com.google.android.apps.maps
+package:com.google.android.apps.plus
+package:com.android.cellbroadcastreceiver
+package:com.google.android.webview
+package:com.google.android.contacts
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.android.facelock
+package:com.android.keychain
+package:com.google.android.gm.exchange
+package:com.google.android.calculator
+package:com.android.chrome
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tag
+package:com.google.android.tts
+package:com.google.android.apps.walletnfcrel
+package:com.android.calllogbackup
+package:com.google.android.partnersetup
+package:com.google.android.videos
+package:com.android.proxyhandler
+package:com.google.android.feedback
+package:com.google.android.apps.photos
+package:com.google.android.calendar
+package:com.android.managedprovisioning
+package:com.android.sdm.plugins.dcmo
+package:com.android.providers.partnerbookmarks
+package:com.google.android.gsf.login
+package:com.android.wallpaper.livepicker
+package:com.huawei.mmitest
+package:org.mozilla.firefox
+package:com.google.android.inputmethod.korean
+package:com.google.android.backuptransport
+package:com.android.settings
+package:com.google.android.inputmethod.pinyin
+package:com.google.android.setupwizard.overlay.smartdevice
+package:com.google.android.apps.tycho
+package:com.android.omadm.service
+package:com.huawei.sarcontrolservice
+package:com.android.vpndialogs
+package:com.google.android.talk
+package:com.android.phone
+package:com.android.shell
+package:com.android.providers.userdictionary
+package:com.google.android.inputmethod.japanese
+package:com.android.location.fused
+package:com.android.systemui
+package:com.android.bluetoothmidiservice
+package:com.quicinc.trepn
+package:com.android.huawei.hiddenmenu
+package:com.google.android.launcher.layouts.angler
+package:com.google.android.play.games
+package:com.google.android.apps.gcs
+package:com.android.bluetooth
+package:com.qualcomm.timeservice
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.google.android.GoogleCamera
+package:com.google.android.inputmethod.latin
+
+2018-10-16 14:41:28,872:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "pm list packages" returned: 
+package:com.google.android.youtube
+package:com.android.providers.telephony
+package:com.android.sdm.plugins.connmo
+package:com.google.android.googlequicksearchbox
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.huawei.entitlement
+package:com.google.android.onetimeinitializer
+package:com.android.wallpapercropper
+package:com.quicinc.cne.CNEService
+package:com.android.documentsui
+package:com.android.externalstorage
+package:com.google.android.apps.enterprise.dmagent
+package:com.android.htmlviewer
+package:com.huawei.callstatisticsutils
+package:com.android.mms.service
+package:com.android.providers.downloads
+package:com.google.android.apps.messaging
+package:android.autoinstalls.config.google.nexus
+package:com.google.android.configupdater
+package:com.android.defcontainer
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.qualcomm.cabl
+package:com.android.certinstaller
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:android
+package:com.android.hotwordenrollment
+package:com.google.android.apps.inputmethod.hindi
+package:com.android.nfc
+package:com.android.stk
+package:com.android.backupconfirm
+package:com.google.android.launcher
+package:com.google.android.deskclock
+package:org.codeaurora.ims
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.android.sdm.plugins.sprintdm
+package:com.google.android.instantapps.supervisor
+package:com.google.android.setupwizard
+package:com.qualcomm.qcrilmsgtunnel
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.google.android.music
+package:com.android.printspooler
+package:com.android.sdm.plugins.diagmon
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.google.android.dialer
+package:com.google.android.apps.cloudprint
+package:com.android.musicfx
+package:com.google.android.apps.docs
+package:com.google.android.apps.maps
+package:com.google.android.apps.plus
+package:com.android.cellbroadcastreceiver
+package:com.google.android.webview
+package:com.google.android.contacts
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.android.facelock
+package:com.android.keychain
+package:com.google.android.gm.exchange
+package:com.google.android.calculator
+package:com.android.chrome
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tag
+package:com.google.android.tts
+package:com.google.android.apps.walletnfcrel
+package:com.android.calllogbackup
+package:com.google.android.partnersetup
+package:com.google.android.videos
+package:com.android.proxyhandler
+package:com.google.android.feedback
+package:com.google.android.apps.photos
+package:com.google.android.calendar
+package:com.android.managedprovisioning
+package:com.android.sdm.plugins.dcmo
+package:com.android.providers.partnerbookmarks
+package:com.google.android.gsf.login
+package:com.android.wallpaper.livepicker
+package:com.huawei.mmitest
+package:org.mozilla.firefox
+package:com.google.android.inputmethod.korean
+package:com.google.android.backuptransport
+package:com.android.settings
+package:com.google.android.inputmethod.pinyin
+package:com.google.android.setupwizard.overlay.smartdevice
+package:com.google.android.apps.tycho
+package:com.android.omadm.service
+package:com.huawei.sarcontrolservice
+package:com.android.vpndialogs
+package:com.google.android.talk
+package:com.android.phone
+package:com.android.shell
+package:com.android.providers.userdictionary
+package:com.google.android.inputmethod.japanese
+package:com.android.location.fused
+package:com.android.systemui
+package:com.android.bluetoothmidiservice
+package:com.quicinc.trepn
+package:com.android.huawei.hiddenmenu
+package:com.google.android.launcher.layouts.angler
+package:com.google.android.play.games
+package:com.google.android.apps.gcs
+package:com.android.bluetooth
+package:com.qualcomm.timeservice
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.google.android.GoogleCamera
+package:com.google.android.inputmethod.latin
+
+2018-10-16 14:41:28,912:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:28,948:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:28,985:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:29,030:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:29,031:INFO:WebExperiment:Device: nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+2018-10-16 14:41:29,031:INFO:Profilers:Loading
+2018-10-16 14:41:29,076:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:29,113:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:29,155:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:29,202:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:29,203:DEBUG:Android:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Loading configuration
+2018-10-16 14:41:29,240:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:29,281:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:29,317:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:29,352:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:29,353:DEBUG:Trepn:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Loading configuration
+2018-10-16 14:41:29,891:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "monkey -p com.quicinc.trepn 1" returned: 
+Events injected: 1
+## Network stats: elapsed time=42ms (0ms mobile, 0ms wifi, 42ms not connected)
+
+2018-10-16 14:41:35,846:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am broadcast -a com.quicinc.trepn.load_preferences -e com.quicinc.trepn.load_preferences_file "/sdcard/trepn/saved_preferences/trepn.pref"" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.load_preferences (has extras) }
+Broadcast completed: result=0
+
+2018-10-16 14:41:37,536:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am force-stop com.quicinc.trepn" returned: 
+
+2018-10-16 14:41:40,334:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am startservice com.quicinc.trepn/.TrepnService" returned: 
+Starting service: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.TrepnService }
+
+2018-10-16 14:41:40,405:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:40,462:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys battery unplug" returned: 
+
+2018-10-16 14:41:40,494:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:40,524:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:40,525:DEBUG:Scripts:Running hook before_experiment on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: ()
+kwargs: {}
+2018-10-16 14:41:40,580:INFO:Python2:before_experiment.py
+2018-10-16 14:41:40,582:DEBUG:Python2:before_experiment.py returned None
+2018-10-16 14:41:40,587:INFO:WebExperiment:URL: 192.168.0.102:4000
+2018-10-16 14:41:40,587:INFO:WebExperiment:Run 1 of 1
+2018-10-16 14:41:40,615:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:40,647:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:40,648:DEBUG:Scripts:Running hook before_run on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: ()
+kwargs: {}
+2018-10-16 14:41:40,655:INFO:Python2:before_run.py
+2018-10-16 14:41:40,657:DEBUG:Python2:before_run.py returned None
+2018-10-16 14:41:40,660:INFO:Chrome:KYVKK16119600056: Start
+2018-10-16 14:41:41,591:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am start -S -a android.intent.action.VIEW -n com.android.chrome/com.google.android.apps.chrome.Main --activity-clear-task" returned: 
+Stopping: com.android.chrome
+Starting: Intent { act=android.intent.action.VIEW flg=0x8000 cmp=com.android.chrome/com.google.android.apps.chrome.Main }
+
+2018-10-16 14:41:46,691:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys window windows" returned: 
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #8 Window{c7d2ed8 u0 NavigationBar}:
+    mDisplayId=0 stackId=0 mSession=Session{f545a7 6639:u0a10027} mClient=android.os.BinderProxy@df369bb
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2019 fl=#1840068 fmt=-3}
+    Requested w=1440 h=168 mLayoutSeq=10695
+    mBaseLayer=211000 mSubLayer=0 mAnimLayer=211000+0=211000 mLastLayer=211000
+    mToken=WindowToken{1d5d59a null}
+    mRootToken=WindowToken{1d5d59a null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+    mHasSurface=true mShownFrame=[0.0,2392.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,2392][1440,2560] last=[0,2392][1440,2560]
+    mSystemDecorRect=[0,0][1440,168] last=[0,0][0,0]
+    Frames: containing=[0,2392][1440,2560] parent=[0,2392][1440,2560]
+        display=[0,2392][1440,2560] overscan=[0,2392][1440,2560]
+        content=[0,2392][1440,2560] visible=[0,2392][1440,2560]
+        decor=[0,0][0,0]
+        outset=[0,2392][1440,2560]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{3748042 NavigationBar}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      mSurface=Surface(name=NavigationBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=211000 alpha=1.0 rect=(0.0,2392.0) 1440.0 x 168.0
+    mLastFreezeDuration=+157ms
+  Window #7 Window{6200af2 u0 StatusBar}:
+    mDisplayId=0 stackId=0 mSession=Session{f545a7 6639:u0a10027} mClient=android.os.BinderProxy@60a1dfd
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx84) gr=#30 sim=#10 ty=2000 fl=#81840048 fmt=-3 vsysui=0x600}
+    Requested w=1440 h=84 mLayoutSeq=10695
+    mBaseLayer=161000 mSubLayer=0 mAnimLayer=161000+0=161000 mLastLayer=161000
+    mToken=WindowToken{1d5d59a null}
+    mRootToken=WindowToken{1d5d59a null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,84.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,84] last=[0,0][1440,84]
+    mSystemDecorRect=[0,0][1440,84] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2392]
+        content=[0,0][1440,84] visible=[0,0][1440,84]
+        decor=[0,0][0,0]
+        outset=[0,0][1440,2392]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{6dcd68d StatusBar}:
+      mSurface=Surface(name=StatusBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=161000 alpha=1.0 rect=(0.0,0.0) 1440.0 x 84.0
+    mLastFreezeDuration=+130ms
+    mDrawLock=WakeLock{82bb166 held=false, refCount=0}
+  Window #6 Window{2bde638 u0 KeyguardScrim}:
+    mDisplayId=0 stackId=0 mSession=Session{1183fa8 5094:1000} mClient=android.view.ViewRootImpl$W@230e29b
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#1110900 pfl=0x1 fmt=-3 or=5 vsysui=0x3610000}
+    Requested w=1440 h=2392 mLayoutSeq=32
+    mBaseLayer=141000 mSubLayer=0 mAnimLayer=141000+0=141000 mLastLayer=141000
+    mToken=WindowToken{1d5d59a null}
+    mRootToken=WindowToken{1d5d59a null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x3610000
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2392.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2392] last=[0,0][1440,2392]
+    mSystemDecorRect=[0,0][1440,2392] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{c70bb24 KeyguardScrim}:
+  Window #5 Window{43662b9 u0 AssistPreviewPanel}:
+    mDisplayId=0 stackId=0 mSession=Session{f545a7 6639:u0a10027} mClient=android.os.BinderProxy@83d6c80
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx875) gr=#800053 sim=#31 ty=2033 fl=#1000118 fmt=-3 vsysui=0x700}
+    Requested w=0 h=0 mLayoutSeq=10286
+    mBaseLayer=41000 mSubLayer=0 mAnimLayer=41000+0=41000 mLastLayer=0
+    mToken=WindowToken{1d5d59a null}
+    mRootToken=WindowToken{1d5d59a null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    mFrame=[0,2392][1440,2392] last=[0,0][0,0]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2392]
+        content=[0,2392][1440,2392] visible=[0,2392][1440,2392]
+        decor=[0,84][1440,2392]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{a0628ff AssistPreviewPanel}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #4 Window{8e3be4e u0 InputMethod}:
+    mDisplayId=0 stackId=0 mSession=Session{4226113 7039:u0a10056} mClient=android.os.BinderProxy@8615549
+    mOwnerUid=10056 mShowToOwnerOnly=true package=com.google.android.inputmethod.latin appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) gr=#50 sim=#20 ty=2011 fl=#800108 fmt=-2 wanim=0x1030056 vsysui=0x300 needsMenuKey=2}
+    Requested w=1440 h=2476 mLayoutSeq=10495
+    mIsImWindow=true mIsWallpaper=false mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=121000 mSubLayer=0 mAnimLayer=21020+0=21020 mLastLayer=21035
+    mToken=WindowToken{84345c1 android.os.Binder@bd6c25d}
+    mRootToken=WindowToken{84345c1 android.os.Binder@bd6c25d}
+    mTargetAppToken=AppWindowToken{202b717 token=Token{19ba0ca ActivityRecord{9718435 u0 com.android.chrome/com.google.android.apps.chrome.Main t1733}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x300
+    mGivenContentInsets=[0,1321][0,0] mGivenVisibleInsets=[0,1321][0,0]
+    mTouchableInsets=3 mGivenInsetsPending=false
+    touchable region=SkRegion((0,1405,1440,2392))
+    mConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+    mHasSurface=false mShownFrame=[0.0,84.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,84][1440,2560] last=[0,84][1440,2560]
+    mSystemDecorRect=[0,0][1440,2476] last=[0,0][0,0]
+    Frames: containing=[0,84][1440,2560] parent=[0,84][1440,2560]
+        display=[0,84][1440,2560] overscan=[0,84][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][0,0]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,168] visible=[0,0][0,168] stable=[0,0][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,168] visible=[0,0][0,168] stable=[0,0][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{7dc2eb6 InputMethod}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #3 Window{594aa27 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+    mDisplayId=0 stackId=0 mSession=Session{acb6318 7163:u0a10029} mClient=android.os.BinderProxy@7f94e6
+    mOwnerUid=10029 mShowToOwnerOnly=true package=com.google.android.googlequicksearchbox appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 fmt=-3 wanim=0x103045b vsysui=0x700 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=10695
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21015+0=21015 mLastLayer=21015
+    mToken=AppWindowToken{b229449 token=Token{5fc2a50 ActivityRecord{79bc813 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t1464}}}
+    mRootToken=AppWindowToken{b229449 token=Token{5fc2a50 ActivityRecord{79bc813 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t1464}}}
+    mAppToken=AppWindowToken{b229449 token=Token{5fc2a50 ActivityRecord{79bc813 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t1464}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{d59d55d com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+      mSurface=Surface(name=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21015 alpha=1.0 rect=(0.0,0.0) 1440.0 x 2560.0
+    mWallpaperX=0.0 mWallpaperY=0.5
+    mWallpaperXStep=0.33333334 mWallpaperYStep=1.0
+  Window #2 Window{85f07b5 u0 com.android.systemui/com.android.systemui.recents.RecentsActivity}:
+    mDisplayId=0 stackId=0 mSession=Session{f545a7 6639:u0a10027} mClient=android.os.BinderProxy@dd5d7ec
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 fmt=-2 wanim=0x7f0e0005 vsysui=0x700 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=10643
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21010+0=21010 mLastLayer=21010
+    mToken=AppWindowToken{74fb5e token=Token{84c1c99 ActivityRecord{95061e0 u0 com.android.systemui/.recents.RecentsActivity t1481}}}
+    mRootToken=AppWindowToken{74fb5e token=Token{84c1c99 ActivityRecord{95061e0 u0 com.android.systemui/.recents.RecentsActivity t1481}}}
+    mAppToken=AppWindowToken{74fb5e token=Token{84c1c99 ActivityRecord{95061e0 u0 com.android.systemui/.recents.RecentsActivity t1481}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{1305ed2 com.android.systemui/com.android.systemui.recents.RecentsActivity}:
+  Window #1 Window{7983b0b u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity}:
+    mDisplayId=0 stackId=95 mSession=Session{28adfc 26855:u0a10039} mClient=android.os.BinderProxy@ead0ada
+    mOwnerUid=10039 mShowToOwnerOnly=true package=com.android.chrome appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#122 ty=1 fl=#81810100 wanim=0x103045b vsysui=0x600 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=10687
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=22005
+    mToken=AppWindowToken{e8b531e token=Token{f831834 ActivityRecord{7fbef07 u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t1741}}}
+    mRootToken=AppWindowToken{e8b531e token=Token{f831834 ActivityRecord{7fbef07 u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t1741}}}
+    mAppToken=AppWindowToken{e8b531e token=Token{f831834 ActivityRecord{7fbef07 u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t1741}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{4ca254a com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity}:
+      mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #0 Window{e2f8e6d u0 com.android.systemui.ImageWallpaper}:
+    mDisplayId=0 stackId=0 mSession=Session{f545a7 6639:u0a10027} mClient=android.os.BinderProxy@fbde684
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1634x2560) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302ea}
+    Requested w=1634 h=2560 mLayoutSeq=10695
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=true
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21000+0=21000 mLastLayer=21000
+    mToken=WindowToken{e3d0ecb android.os.Binder@26003ed}
+    mRootToken=WindowToken{e3d0ecb android.os.Binder@26003ed}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+    mHasSurface=true mShownFrame=[0.0,0.0][1634.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,0][1634,2560] last=[0,0][1634,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[-10000,-10000][10000,10000] overscan=[0,0][1440,2560]
+        content=[0,0][1440,2560] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][1440,2560]
+    Cur insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{5021dea com.android.systemui.ImageWallpaper}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      mSurface=Surface(name=com.android.systemui.ImageWallpaper)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21000 alpha=1.0 rect=(0.0,0.0) 1634.0 x 2560.0
+    mLastFreezeDuration=+25m5s468ms
+    mWallpaperX=0.0 mWallpaperY=0.5
+    mWallpaperXStep=0.33333334 mWallpaperYStep=1.0
+
+  mCurConfiguration={1.0 222mcc10mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.39}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{594aa27 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+  mFocusedApp=AppWindowToken{b229449 token=Token{5fc2a50 ActivityRecord{79bc813 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t1464}}}
+  mInputMethodTarget=Window{8299407 u0 com.android.chrome/com.google.android.apps.chrome.Main}
+  mInTouchMode=true mLayoutSeq=10695
+  mLastDisplayFreezeDuration=+163ms due to Window{c7d2ed8 u0 NavigationBar}
+  mSystemDecorLayer=161000 mScreenRect=[0,0][1440,2560]
+  mLastStatusBarVisibility=0x8700
+  mWallpaperTarget=Window{594aa27 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+  mLastWallpaperX=0.0 mLastWallpaperY=0.5
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=14568
+  mDisplayFrozen=false windows=0 client=false apps=0 waitingForConfig=false
+  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mForcedAppOrientation=5
+  mDeferredRotationPauseCount=0
+  Animation settings: disabled=false window=1.0 transition=1.0 animator=1.0
+  mTraversalScheduled=false
+ mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+    mNextAppTransition=TRANSIT_UNSET
+    mAppTransitionState=APP_STATE_IDLE
+
+2018-10-16 14:41:46,697:DEBUG:Device:Current activity: com.google.android.googlequicksearchbox
+2018-10-16 14:41:46,735:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:46,776:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:46,777:DEBUG:Scripts:Running hook after_launch on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: (u'KYVKK16119600056', 'com.google.android.googlequicksearchbox')
+kwargs: {}
+2018-10-16 14:41:46,785:INFO:Python2:after_launch.py
+2018-10-16 14:41:46,786:DEBUG:Python2:after_launch.py returned None
+2018-10-16 14:41:46,826:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:46,867:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:46,868:DEBUG:Scripts:Running hook after_launch on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: (<ExperimentRunner.Browsers.Chrome.Chrome object at 0x10e6ac250>,)
+kwargs: {}
+2018-10-16 14:41:46,875:INFO:Python2:after_launch.py
+2018-10-16 14:41:46,877:DEBUG:Python2:after_launch.py returned None
+2018-10-16 14:41:46,880:INFO:Profilers:Start profiling
+2018-10-16 14:41:46,918:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:46,958:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:46,999:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:47,045:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:47,046:DEBUG:Android:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Start profiling
+2018-10-16 14:41:47,088:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:41:48 GMT 2018
+
+2018-10-16 14:41:47,139:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+14% TOTAL: 7.7% user + 4.8% kernel + 1% iowait + 0.1% irq + 0.1% softirq
+
+2018-10-16 14:41:48,574:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1261031 kB (1054863 used pss + 206168 kernel)
+
+2018-10-16 14:41:48,612:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:48,617:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:41:49 GMT 2018
+
+2018-10-16 14:41:48,650:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:48,660:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+14% TOTAL: 7.8% user + 4.9% kernel + 1% iowait + 0.2% irq + 0.1% softirq
+
+2018-10-16 14:41:48,686:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:48,722:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:48,722:DEBUG:Trepn:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Start profiling
+2018-10-16 14:41:49,620:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am broadcast -a com.quicinc.trepn.start_profiling" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.start_profiling }
+Broadcast completed: result=0
+
+2018-10-16 14:41:49,621:INFO:Chrome:KYVKK16119600056: Load URL: 192.168.0.102:4000
+2018-10-16 14:41:49,783:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1257287 kB (1050475 used pss + 206812 kernel)
+
+2018-10-16 14:41:49,844:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:41:50 GMT 2018
+
+2018-10-16 14:41:49,894:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+14% TOTAL: 7.8% user + 4.9% kernel + 1% iowait + 0.2% irq + 0.1% softirq
+
+2018-10-16 14:41:50,255:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am start -a android.intent.action.VIEW -n com.android.chrome/com.google.android.apps.chrome.Main -d 192.168.0.102:4000" returned: 
+Starting: Intent { act=android.intent.action.VIEW dat=192.168.0.102:4000 cmp=com.android.chrome/com.google.android.apps.chrome.Main }
+
+2018-10-16 14:41:51,391:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1276275 kB (1069843 used pss + 206432 kernel)
+
+2018-10-16 14:41:51,430:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:41:52 GMT 2018
+
+2018-10-16 14:41:51,478:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+14% TOTAL: 7.8% user + 4.9% kernel + 1% iowait + 0.2% irq + 0.1% softirq
+
+2018-10-16 14:41:52,750:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1245391 kB (1038655 used pss + 206736 kernel)
+
+2018-10-16 14:41:52,801:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:41:53 GMT 2018
+
+2018-10-16 14:41:52,853:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+14% TOTAL: 7.8% user + 4.9% kernel + 1% iowait + 0.2% irq + 0.1% softirq
+
+2018-10-16 14:41:54,064:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1268474 kB (1061686 used pss + 206788 kernel)
+
+2018-10-16 14:41:54,103:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:41:55 GMT 2018
+
+2018-10-16 14:41:54,162:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+30% TOTAL: 13% user + 12% kernel + 4.4% iowait + 0.2% irq + 0.2% softirq
+
+2018-10-16 14:41:55,327:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:41:55,360:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1283521 kB (1076757 used pss + 206764 kernel)
+
+2018-10-16 14:41:55,375:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:41:55,376:DEBUG:Scripts:Running hook interaction on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: (<ExperimentRunner.Browsers.Chrome.Chrome object at 0x10e6ac250>,)
+kwargs: {}
+2018-10-16 14:41:55,383:INFO:Python2:adb.py
+2018-10-16 14:41:55,399:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:41:56 GMT 2018
+
+2018-10-16 14:41:55,445:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+30% TOTAL: 13% user + 12% kernel + 4.4% iowait + 0.2% irq + 0.2% softirq
+
+2018-10-16 14:41:56,888:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1325187 kB (1120987 used pss + 204200 kernel)
+
+2018-10-16 14:41:56,930:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:41:58 GMT 2018
+
+2018-10-16 14:41:56,979:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+30% TOTAL: 13% user + 12% kernel + 4.4% iowait + 0.2% irq + 0.2% softirq
+
+2018-10-16 14:41:58,222:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1143120 kB (938068 used pss + 205052 kernel)
+
+2018-10-16 14:41:58,260:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:41:59 GMT 2018
+
+2018-10-16 14:41:58,312:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+30% TOTAL: 13% user + 12% kernel + 4.4% iowait + 0.2% irq + 0.2% softirq
+
+2018-10-16 14:41:59,677:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1291318 kB (1084882 used pss + 206436 kernel)
+
+2018-10-16 14:41:59,756:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:00 GMT 2018
+
+2018-10-16 14:41:59,805:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+42% TOTAL: 18% user + 15% kernel + 7.1% iowait + 0.3% irq + 0.4% softirq
+
+2018-10-16 14:42:01,432:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1294212 kB (1084664 used pss + 209548 kernel)
+
+2018-10-16 14:42:01,473:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:02 GMT 2018
+
+2018-10-16 14:42:01,518:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+42% TOTAL: 18% user + 15% kernel + 7.1% iowait + 0.3% irq + 0.4% softirq
+
+2018-10-16 14:42:03,109:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1368099 kB (1151835 used pss + 216264 kernel)
+
+2018-10-16 14:42:03,147:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:04 GMT 2018
+
+2018-10-16 14:42:03,192:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+42% TOTAL: 18% user + 15% kernel + 7.1% iowait + 0.3% irq + 0.4% softirq
+
+2018-10-16 14:42:04,624:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1431838 kB (1196190 used pss + 235648 kernel)
+
+2018-10-16 14:42:04,663:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:05 GMT 2018
+
+2018-10-16 14:42:04,710:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+42% TOTAL: 18% user + 15% kernel + 7.1% iowait + 0.3% irq + 0.4% softirq
+
+2018-10-16 14:42:05,960:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1443871 kB (1213311 used pss + 230560 kernel)
+
+2018-10-16 14:42:05,996:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:07 GMT 2018
+
+2018-10-16 14:42:06,040:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+44% TOTAL: 20% user + 16% kernel + 6.6% iowait + 0.3% irq + 0.4% softirq
+
+2018-10-16 14:42:07,303:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1428232 kB (1198888 used pss + 229344 kernel)
+
+2018-10-16 14:42:07,366:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:08 GMT 2018
+
+2018-10-16 14:42:07,416:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+44% TOTAL: 20% user + 16% kernel + 6.6% iowait + 0.3% irq + 0.4% softirq
+
+2018-10-16 14:42:08,644:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1425838 kB (1196474 used pss + 229364 kernel)
+
+2018-10-16 14:42:08,704:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:09 GMT 2018
+
+2018-10-16 14:42:08,758:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+44% TOTAL: 20% user + 16% kernel + 6.6% iowait + 0.3% irq + 0.4% softirq
+
+2018-10-16 14:42:10,190:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1431101 kB (1195913 used pss + 235188 kernel)
+
+2018-10-16 14:42:10,237:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:11 GMT 2018
+
+2018-10-16 14:42:10,280:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+44% TOTAL: 20% user + 16% kernel + 6.6% iowait + 0.3% irq + 0.4% softirq
+
+2018-10-16 14:42:12,034:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1456866 kB (1225566 used pss + 231300 kernel)
+
+2018-10-16 14:42:12,068:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:13 GMT 2018
+
+2018-10-16 14:42:12,108:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+38% TOTAL: 15% user + 15% kernel + 6.2% iowait + 0.2% irq + 0.3% softirq
+
+2018-10-16 14:42:13,755:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1479788 kB (1247108 used pss + 232680 kernel)
+
+2018-10-16 14:42:13,792:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:14 GMT 2018
+
+2018-10-16 14:42:13,833:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+38% TOTAL: 15% user + 15% kernel + 6.2% iowait + 0.2% irq + 0.3% softirq
+
+2018-10-16 14:42:15,522:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1435826 kB (1202354 used pss + 233472 kernel)
+
+2018-10-16 14:42:15,570:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:16 GMT 2018
+
+2018-10-16 14:42:15,617:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+38% TOTAL: 15% user + 15% kernel + 6.2% iowait + 0.2% irq + 0.3% softirq
+
+2018-10-16 14:42:17,303:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1438832 kB (1204344 used pss + 234488 kernel)
+
+2018-10-16 14:42:17,346:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:18 GMT 2018
+
+2018-10-16 14:42:17,398:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:19,095:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1433780 kB (1204420 used pss + 229360 kernel)
+
+2018-10-16 14:42:19,137:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:20 GMT 2018
+
+2018-10-16 14:42:19,187:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:20,872:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1437046 kB (1206262 used pss + 230784 kernel)
+
+2018-10-16 14:42:20,916:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:21 GMT 2018
+
+2018-10-16 14:42:20,966:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:22,420:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1437749 kB (1207265 used pss + 230484 kernel)
+
+2018-10-16 14:42:22,492:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:23 GMT 2018
+
+2018-10-16 14:42:22,544:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:42:23,802:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1435508 kB (1206052 used pss + 229456 kernel)
+
+2018-10-16 14:42:23,871:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:24 GMT 2018
+
+2018-10-16 14:42:23,931:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:42:25,254:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1435116 kB (1202576 used pss + 232540 kernel)
+
+2018-10-16 14:42:25,290:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:26 GMT 2018
+
+2018-10-16 14:42:25,335:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:42:26,926:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1470727 kB (1233339 used pss + 237388 kernel)
+
+2018-10-16 14:42:26,961:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:28 GMT 2018
+
+2018-10-16 14:42:27,004:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:42:28,811:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1501592 kB (1268176 used pss + 233416 kernel)
+
+2018-10-16 14:42:28,848:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:29 GMT 2018
+
+2018-10-16 14:42:28,894:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:31,280:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1496302 kB (1261126 used pss + 235176 kernel)
+
+2018-10-16 14:42:31,357:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:32 GMT 2018
+
+2018-10-16 14:42:31,420:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:33,678:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1498046 kB (1262934 used pss + 235112 kernel)
+
+2018-10-16 14:42:33,716:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:34 GMT 2018
+
+2018-10-16 14:42:33,770:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:36,058:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1501315 kB (1267267 used pss + 234048 kernel)
+
+2018-10-16 14:42:36,106:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:37 GMT 2018
+
+2018-10-16 14:42:36,151:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:38,460:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1450400 kB (1214284 used pss + 236116 kernel)
+
+2018-10-16 14:42:38,498:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:39 GMT 2018
+
+2018-10-16 14:42:38,545:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:40,800:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1447722 kB (1217150 used pss + 230572 kernel)
+
+2018-10-16 14:42:40,850:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:41 GMT 2018
+
+2018-10-16 14:42:40,897:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:42,654:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1313705 kB (1110985 used pss + 202720 kernel)
+
+2018-10-16 14:42:42,692:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:43 GMT 2018
+
+2018-10-16 14:42:42,738:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:42:44,491:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1184755 kB (978247 used pss + 206508 kernel)
+
+2018-10-16 14:42:44,537:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:45 GMT 2018
+
+2018-10-16 14:42:44,589:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:42:46,750:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1263797 kB (1056609 used pss + 207188 kernel)
+
+2018-10-16 14:42:46,797:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:47 GMT 2018
+
+2018-10-16 14:42:46,845:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:42:49,110:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1283656 kB (1074284 used pss + 209372 kernel)
+
+2018-10-16 14:42:49,150:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:50 GMT 2018
+
+2018-10-16 14:42:49,199:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:51,404:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1347319 kB (1138223 used pss + 209096 kernel)
+
+2018-10-16 14:42:51,444:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:52 GMT 2018
+
+2018-10-16 14:42:51,488:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:53,722:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1291180 kB (1080844 used pss + 210336 kernel)
+
+2018-10-16 14:42:53,766:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:54 GMT 2018
+
+2018-10-16 14:42:53,818:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:42:56,148:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1314318 kB (1103482 used pss + 210836 kernel)
+
+2018-10-16 14:42:56,186:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:57 GMT 2018
+
+2018-10-16 14:42:56,231:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+62% TOTAL: 29% user + 21% kernel + 9.8% iowait + 0.5% irq + 1.1% softirq
+
+2018-10-16 14:42:58,521:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1328110 kB (1116786 used pss + 211324 kernel)
+
+2018-10-16 14:42:58,561:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:42:59 GMT 2018
+
+2018-10-16 14:42:58,611:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+62% TOTAL: 29% user + 21% kernel + 9.8% iowait + 0.5% irq + 1.1% softirq
+
+2018-10-16 14:43:00,844:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1380229 kB (1169125 used pss + 211104 kernel)
+
+2018-10-16 14:43:00,899:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:01 GMT 2018
+
+2018-10-16 14:43:00,947:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+62% TOTAL: 29% user + 21% kernel + 9.8% iowait + 0.5% irq + 1.1% softirq
+
+2018-10-16 14:43:03,265:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1374819 kB (1163923 used pss + 210896 kernel)
+
+2018-10-16 14:43:03,305:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:04 GMT 2018
+
+2018-10-16 14:43:03,356:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+61% TOTAL: 29% user + 20% kernel + 9.2% iowait + 0.4% irq + 0.4% softirq
+
+2018-10-16 14:43:05,689:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1325992 kB (1116020 used pss + 209972 kernel)
+
+2018-10-16 14:43:05,736:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:06 GMT 2018
+
+2018-10-16 14:43:05,787:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+61% TOTAL: 29% user + 20% kernel + 9.2% iowait + 0.4% irq + 0.4% softirq
+
+2018-10-16 14:43:08,049:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1319202 kB (1107986 used pss + 211216 kernel)
+
+2018-10-16 14:43:08,089:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:09 GMT 2018
+
+2018-10-16 14:43:08,135:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+61% TOTAL: 29% user + 20% kernel + 9.2% iowait + 0.4% irq + 0.4% softirq
+
+2018-10-16 14:43:10,309:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1323027 kB (1112903 used pss + 210124 kernel)
+
+2018-10-16 14:43:10,368:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:11 GMT 2018
+
+2018-10-16 14:43:10,421:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:43:12,160:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1319714 kB (1109670 used pss + 210044 kernel)
+
+2018-10-16 14:43:12,234:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:13 GMT 2018
+
+2018-10-16 14:43:12,306:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:43:13,962:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1316986 kB (1106346 used pss + 210640 kernel)
+
+2018-10-16 14:43:14,001:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:15 GMT 2018
+
+2018-10-16 14:43:14,048:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:43:15,822:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1378604 kB (1167216 used pss + 211388 kernel)
+
+2018-10-16 14:43:15,869:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:16 GMT 2018
+
+2018-10-16 14:43:15,916:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+45% TOTAL: 20% user + 17% kernel + 6.6% iowait + 0.4% irq + 0.3% softirq
+
+2018-10-16 14:43:18,226:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1372768 kB (1161560 used pss + 211208 kernel)
+
+2018-10-16 14:43:18,275:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:19 GMT 2018
+
+2018-10-16 14:43:18,325:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+45% TOTAL: 20% user + 17% kernel + 6.6% iowait + 0.4% irq + 0.3% softirq
+
+2018-10-16 14:43:21,444:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1377534 kB (1166878 used pss + 210656 kernel)
+
+2018-10-16 14:43:21,489:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:22 GMT 2018
+
+2018-10-16 14:43:21,552:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:43:24,595:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1380196 kB (1168928 used pss + 211268 kernel)
+
+2018-10-16 14:43:24,655:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:25 GMT 2018
+
+2018-10-16 14:43:24,719:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:43:27,020:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1354014 kB (1142746 used pss + 211268 kernel)
+
+2018-10-16 14:43:27,063:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:28 GMT 2018
+
+2018-10-16 14:43:27,115:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:43:29,431:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1354641 kB (1144725 used pss + 209916 kernel)
+
+2018-10-16 14:43:29,492:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:30 GMT 2018
+
+2018-10-16 14:43:29,542:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:43:31,896:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1345925 kB (1144237 used pss + 201688 kernel)
+
+2018-10-16 14:43:31,963:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:33 GMT 2018
+
+2018-10-16 14:43:32,012:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:43:34,133:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1300711 kB (1096503 used pss + 204208 kernel)
+
+2018-10-16 14:43:34,174:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:35 GMT 2018
+
+2018-10-16 14:43:34,223:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+57% TOTAL: 25% user + 21% kernel + 9.3% iowait + 0.6% irq + 0.5% softirq
+
+2018-10-16 14:43:36,378:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1242109 kB (1035601 used pss + 206508 kernel)
+
+2018-10-16 14:43:36,419:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:37 GMT 2018
+
+2018-10-16 14:43:36,467:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+57% TOTAL: 25% user + 21% kernel + 9.3% iowait + 0.6% irq + 0.5% softirq
+
+2018-10-16 14:43:38,707:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1279627 kB (1070331 used pss + 209296 kernel)
+
+2018-10-16 14:43:38,751:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:39 GMT 2018
+
+2018-10-16 14:43:38,801:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+57% TOTAL: 25% user + 21% kernel + 9.3% iowait + 0.6% irq + 0.5% softirq
+
+2018-10-16 14:43:41,281:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1371264 kB (1162040 used pss + 209224 kernel)
+
+2018-10-16 14:43:41,329:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:42 GMT 2018
+
+2018-10-16 14:43:41,385:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:43:43,691:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1309845 kB (1099893 used pss + 209952 kernel)
+
+2018-10-16 14:43:43,733:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:44 GMT 2018
+
+2018-10-16 14:43:43,789:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:43:46,065:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1331930 kB (1121134 used pss + 210796 kernel)
+
+2018-10-16 14:43:46,104:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:47 GMT 2018
+
+2018-10-16 14:43:46,147:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:43:48,461:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1339944 kB (1129096 used pss + 210848 kernel)
+
+2018-10-16 14:43:48,504:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:49 GMT 2018
+
+2018-10-16 14:43:48,549:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:43:51,285:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1389846 kB (1179166 used pss + 210680 kernel)
+
+2018-10-16 14:43:51,334:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:52 GMT 2018
+
+2018-10-16 14:43:51,387:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:43:53,973:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1343703 kB (1133991 used pss + 209712 kernel)
+
+2018-10-16 14:43:54,031:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:55 GMT 2018
+
+2018-10-16 14:43:54,086:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+75% TOTAL: 35% user + 27% kernel + 10% iowait + 1.1% irq + 0.7% softirq
+
+2018-10-16 14:43:56,408:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1340046 kB (1130326 used pss + 209720 kernel)
+
+2018-10-16 14:43:56,469:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:57 GMT 2018
+
+2018-10-16 14:43:56,533:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+75% TOTAL: 35% user + 27% kernel + 10% iowait + 1.1% irq + 0.7% softirq
+
+2018-10-16 14:43:58,813:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1348168 kB (1138708 used pss + 209460 kernel)
+
+2018-10-16 14:43:58,859:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:43:59 GMT 2018
+
+2018-10-16 14:43:58,911:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+75% TOTAL: 35% user + 27% kernel + 10% iowait + 1.1% irq + 0.7% softirq
+
+2018-10-16 14:44:00,893:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1335037 kB (1125597 used pss + 209440 kernel)
+
+2018-10-16 14:44:00,948:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:44:02 GMT 2018
+
+2018-10-16 14:44:01,001:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:44:02,725:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1334284 kB (1124848 used pss + 209436 kernel)
+
+2018-10-16 14:44:02,767:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:44:03 GMT 2018
+
+2018-10-16 14:44:02,815:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:44:04,471:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1334448 kB (1124808 used pss + 209640 kernel)
+
+2018-10-16 14:44:04,512:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:44:05 GMT 2018
+
+2018-10-16 14:44:04,558:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0% TOTAL: 0% user + 0% kernel + 0% irq + 0% softirq
+
+2018-10-16 14:44:06,410:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1343867 kB (1133427 used pss + 210440 kernel)
+
+2018-10-16 14:44:06,454:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:44:07 GMT 2018
+
+2018-10-16 14:44:06,502:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:44:08,772:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1368749 kB (1158609 used pss + 210140 kernel)
+
+2018-10-16 14:44:08,820:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:44:09 GMT 2018
+
+2018-10-16 14:44:08,868:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:44:11,131:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1320115 kB (1110275 used pss + 209840 kernel)
+
+2018-10-16 14:44:11,174:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:44:12 GMT 2018
+
+2018-10-16 14:44:11,220:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+0.1% TOTAL: 0% user + 0% kernel + 0% iowait + 0% irq + 0% softirq
+
+2018-10-16 14:44:13,508:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1324873 kB (1114845 used pss + 210028 kernel)
+
+2018-10-16 14:44:13,556:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:44:14 GMT 2018
+
+2018-10-16 14:44:13,608:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+51% TOTAL: 26% user + 18% kernel + 6.3% iowait + 0.5% irq + 0.3% softirq
+
+2018-10-16 14:44:15,985:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+ Used RAM: 1341951 kB (1131967 used pss + 209984 kernel)
+
+2018-10-16 14:44:16,029:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "date -u" returned: 
+Tue Oct 16 12:44:17 GMT 2018
+
+2018-10-16 14:44:16,074:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys cpuinfo | grep TOTAL" returned: 
+51% TOTAL: 26% user + 18% kernel + 6.3% iowait + 0.5% irq + 0.3% softirq
+
+2018-10-16 14:44:17,165:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys meminfo | grep Used" returned: 
+
+2018-10-16 14:44:17,208:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:44:17,250:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys battery reset" returned: 
+
+2018-10-16 14:44:17,251:INFO:Profilers:Stop profiling
+2018-10-16 14:44:17,294:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:44:17,333:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:44:17,371:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:44:17,409:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:44:17,410:DEBUG:Android:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Stop profiling
+2018-10-16 14:44:17,445:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:44:17,481:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:44:17,521:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:44:17,557:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:44:17,557:DEBUG:Trepn:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Stop profiling
+2018-10-16 14:44:18,729:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am broadcast -a com.quicinc.trepn.stop_profiling" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.stop_profiling }
+Broadcast completed: result=0
+
+2018-10-16 14:44:18,730:INFO:Profilers:Unloading
+2018-10-16 14:44:18,769:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:44:18,806:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:44:18,843:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:44:18,881:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:44:18,881:DEBUG:Android:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Cleanup
+2018-10-16 14:44:18,939:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:44:18,981:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:44:19,018:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-16 14:44:19,056:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-16 14:44:19,056:DEBUG:Trepn:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Cleanup
+2018-10-16 14:44:19,992:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am stopservice com.quicinc.trepn/.TrepnService" returned: 
+Stopping service: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.TrepnService }
+Service stopped
+
+2018-10-16 14:44:20,043:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "rm -r /sdcard/trepn/saved_preferences/trepn.pref" returned: 
+
+2018-10-16 14:44:20,044:INFO:Chrome:KYVKK16119600056: Stop
+2018-10-16 14:44:21,100:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am force-stop com.android.chrome" returned: 
+
+2018-10-16 14:44:21,803:INFO:ExperimentRunner.Adb:KYVKK16119600056: Data of "com.android.chrome" cleared
