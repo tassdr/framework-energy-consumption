@@ -1,5 +1,7 @@
 # Web front-end frameworks impact on energy consumption.
 
+## Introduction
+
 
 
 
@@ -11,7 +13,7 @@
 ## Results
 
 
-## How to Replicate the experiment.
+## Guidelines for experiment replication.
 
 
 ### Web front-end frameworks
