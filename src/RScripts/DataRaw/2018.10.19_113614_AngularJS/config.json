@@ -1,0 +1,34 @@
+{
+  "type": "web",
+  "devices": ["nexus6p"],
+  "replications": 20,
+  "monkeyrunner_path": "/Users/Luca/Library/Android/sdk/tools/bin/monkeyrunner",
+  "adb_path": "/Users/Luca/Library/Android/sdk/platform-tools/adb",
+  "systrace_path": "/Users/Luca/Library/Android/sdk/platform-tools/systrace/systrace.py",
+  "powerprofile_path": "android-runner/example/batterystats/power_profile.xml",
+  "paths": [
+    "angularJS"
+  ],
+  "profilers":{
+    "trepn": {
+      "sample_interval": 100,
+      "data_points": ["cpu_load", "battery_power", "mem_usage"]
+    }
+  },
+  "scripts": {
+    "before_experiment": "before_experiment.py",
+    "before_run": "before_run.py",
+    "after_launch": "after_launch.py",
+    "interaction": [
+      {
+        "type": "python2",
+        "path": "add_text.py"
+      }
+    ],
+    "before_close": "before_close.py",
+    "after_run": "after_run.py",
+    "after_experiment": "after_experiment.py",
+    "aggregation": "aggregation.py"
+  },
+  "time_between_run": 120000
+}
