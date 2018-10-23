@@ -35,7 +35,7 @@ Once all the repositories have been cloned, put all the folders inside a root fo
 
 Please refer each links in order to install everything you need for run all the frameworks. Make sure to run only the commands for install the dependencies, without running the command for run the frameworks.
 
-In order to start all the frameworks, open 9 different terminal windows and go to each sub-directories containing the repositories. Then run the following command. 
+In order to start all the frameworks, open 9 different terminal windows and go to each sub-directories containing the repositories. Then run the following commands. 
 
 * React/Redux: `npm start`
 * Angular: `ng serve --host 0.0.0.0 --port 4201`
