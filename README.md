@@ -37,11 +37,7 @@ Please refer each links in order to install everything you need for run all the 
 
 In order to start all the frameworks, go to each sub-directories containing the repositories and run the following command. 
 
-* React/Redux ```
-npm start
-```
-
-
+* React/Redux: 'npm start'
 
 
 ### AndroidRunner
