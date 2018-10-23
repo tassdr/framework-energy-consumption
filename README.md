@@ -65,7 +65,7 @@ The execution of each framework requires around 1 hour for all the 20 repetition
 
 Note: Remember that the pc and the device need to be connected with the same network.
 
-Note2: Remember to change the IP addresses inside the python adb file that we developed. The IP addresses must be changed inside the main function, in each objects that are using for open the frameworks.
+Note2: Remember to change the IP addresses inside the python adb file that we developed. The IP addresses must be changed inside the main function, in relation to the objects that you are using for open the frameworks.
 
 Note3: If you have insalled both python3 and python2 and python3 is your current version, you may have problems with systrace. You could work around the problem creating a virtual environment for python. We used [Conda](https://conda.io/docs/). In the following [link](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/) a very useful guide for create a virtual environment for python with conda is explained. 
 
