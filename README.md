@@ -50,7 +50,11 @@ In order to start all the frameworks, open 9 different terminal windows and go t
 
 ### AndroidRunner
 
-Once all the frameworks have been run, please go to the [AndoridRunner repository](https://github.com/S2-group/android-runner) and refer to the section "Install" in order to check all the techonologies you need. Then, in order to execute the experiment, clone this repository. Edit the "config.json" file modifying the "paths" field with the name of the framework which you execute the experiment. You have also to modify the monkeyrunner_path, adb_path, systrace_path and powerprofile_path. 
+Once all the frameworks have been run, please go to the [AndoridRunner repository](https://github.com/S2-group/android-runner) and refer to the section "Install" in order to check all the techonologies you need. Then, in order to execute the experiment, clone this repository. Edit the "config.json" file modifying the "paths" field with the name of the framework which you execute the experiment. Additionally, you have to decomment the relative two lines of codes inside the "adb.py" file relative to the framework you are executing (in the main function). For example, if you are running the AngularJS framework, you may modify the "config.json" file adding "AngularJS" as path and decomment the following lines of code inside the "adb.py" file:
+`#angularJS = Scenario("http://192.168.43.164:4000", 1105, 327, 621, 579, 621, 704, 924, 776, 968, 324, 403, 436, 525, 1139, 457, 1330, 599)
+	#angularJS.processUrl()
+`
+You have also to modify the monkeyrunner_path, adb_path, systrace_path and powerprofile_path. 
 <br />
 Every execution of the experiment (one for each frameworks) is repeated 20 times with 2 minutes of interval between each repetition. This amount of time is introduced to be sure to not influence tentative each other. 
 <br />
