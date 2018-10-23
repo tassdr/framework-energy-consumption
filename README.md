@@ -19,7 +19,7 @@
 ### Web front-end frameworks
 
 Which libraries/frameworks are we comparing?
-We included most of the implementations listed in the [RealWorld repo] (https://github.com/gothinkster/realworld). Here we list them, sorted by popularity.
+We included most of the implementations listed in the [RealWorld repo](https://github.com/gothinkster/realworld). Here we list them, sorted by popularity.
 
 * [React/Redux](https://github.com/gothinkster/react-redux-realworld-example-app)
 * [Angular](https://github.com/gothinkster/angular-realworld-example-app)
