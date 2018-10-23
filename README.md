@@ -51,12 +51,17 @@ In order to start all the frameworks, open 9 different terminal windows and go t
 ### AndroidRunner
 
 Once all the frameworks have been run, please go to the [AndoridRunner repository](https://github.com/S2-group/android-runner) and refer to the section "Install" in order to check all the techonologies you need. Then, in order to execute the experiment, clone this repository. Edit the "config.json" file modifying the "paths" field with the name of the framework which you execute the experiment.
-Every execution of the experiment (one for each frameworks) is repeated 20 times with 2 minutes of interval between each repetition. This amount of time is introduced to be sure to not influence tentative each other. Then open a window terminal, go inside the root folder and run the fllowing command for every frameworks: `python2 android-runner android-runner/example/web/config.json`. Be sure that your device is connected to the laptop that you are using for the experiment.
+<br />
+Every execution of the experiment (one for each frameworks) is repeated 20 times with 2 minutes of interval between each repetition. This amount of time is introduced to be sure to not influence tentative each other. 
+<br />
+Then open a window terminal, go inside the root folder and run the fllowing command for every frameworks: `python2 android-runner android-runner/example/web/config.json`. Be sure that your device is connected to the laptop that you are using for the experiment.
+<br />
 The execution of each framework requires around 1 hour for all the 20 repetitions.
 
 Note: Remember that the pc and the device need to be connected with the same network.
 <br />
 Note2: Remember to change the IP addresses inside the python adb file that we developed. The IP addresses must be changed inside the main function, in each objects that are using for open the frameworks.
+<br />
 Note3: 
 
 ### RStudio
