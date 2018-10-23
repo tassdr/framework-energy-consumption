@@ -21,15 +21,15 @@
 Which libraries/frameworks are we comparing?
 We included most of the implementations listed in the [RealWorld repo] (https://github.com/gothinkster/realworld). Here we list them, sorted by popularity.
 
-* [React/Redux] (https://github.com/gothinkster/react-redux-realworld-example-app)
-* [Angular] (https://github.com/gothinkster/angular-realworld-example-app)
-* [Vue] (https://github.com/gothinkster/vue-realworld-example-app)
-* [React/MobX] (https://github.com/gothinkster/react-mobx-realworld-example-app)
-* [AngularJS] (https://github.com/gothinkster/angularjs-realworld-example-app)
-* [Svelte/Sapper] (https://github.com/sveltejs/realworld)
-* [Angular + ngrx + nx] (https://github.com/stefanoslig/angular-ngrx-nx-realworld-example-app)
-* [ClojureScript + Keechma] (https://github.com/gothinkster/clojurescript-keechma-realworld-example-app)
-* [Dojo 2] (https://github.com/gothinkster/dojo2-realworld-example-app)
+* [React/Redux](https://github.com/gothinkster/react-redux-realworld-example-app)
+* [Angular](https://github.com/gothinkster/angular-realworld-example-app)
+* [Vue](https://github.com/gothinkster/vue-realworld-example-app)
+* [React/MobX](https://github.com/gothinkster/react-mobx-realworld-example-app)
+* [AngularJS](https://github.com/gothinkster/angularjs-realworld-example-app)
+* [Svelte/Sapper](https://github.com/sveltejs/realworld)
+* [Angular + ngrx + nx](https://github.com/stefanoslig/angular-ngrx-nx-realworld-example-app)
+* [ClojureScript + Keechma](https://github.com/gothinkster/clojurescript-keechma-realworld-example-app)
+* [Dojo 2](https://github.com/gothinkster/dojo2-realworld-example-app)
 
 Once all the repositories have been cloned, put all the folders inside a root folder. 
 
@@ -43,7 +43,7 @@ In order to start all the frameworks, open 9 different terminal windows and go t
 * React/Mobx: `npm start`
 * AngularJS: `gulp`
 * Svelte/Sapper: `npm run dev`
-* Angular + ngrx + nx: `ng serve --host 0.0.0.0
+* Angular + ngrx + nx: `ng serve --host 0.0.0.0`
 * ClojureScript + Keechma: `lein figwheel dev`
 * Dojo 2: `npm run dev`
 
