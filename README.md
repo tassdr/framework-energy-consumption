@@ -50,7 +50,7 @@ In order to start all the frameworks, open 9 different terminal windows and go t
 
 ### AndroidRunner
 
-Once all the frameworks have been run, please go to the [AndoridRunner repository](https://github.com/S2-group/android-runner) and refer to the section "Install" in order to check all the techonologies you need. Then, in order to execute the experiment, clone this repository. Edit the "config.json" file modifying the "paths" field with the name of the framework which you execute the experiment.
+Once all the frameworks have been run, please go to the [AndoridRunner repository](https://github.com/S2-group/android-runner) and refer to the section "Install" in order to check all the techonologies you need. Then, in order to execute the experiment, clone this repository. Edit the "config.json" file modifying the "paths" field with the name of the framework which you execute the experiment. You have also to modify the monkeyrunner_path, adb_path, systrace_path and powerprofile_path. 
 <br />
 Every execution of the experiment (one for each frameworks) is repeated 20 times with 2 minutes of interval between each repetition. This amount of time is introduced to be sure to not influence tentative each other. 
 <br />
