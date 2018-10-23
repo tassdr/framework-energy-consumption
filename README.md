@@ -10,9 +10,6 @@
 **_An analysis of front-end frameworks, for the purpose of evaluation in regards to their energy consumption, from the point of view of software developers, in the context of mobile development._**	
 
 
-## Results
-
-
 ## Guidelines for experiment replication.
 
 
@@ -70,3 +67,5 @@ Note2: Remember to change the IP addresses inside the python adb file that we de
 Note3: If you have insalled both python3 and python2 and python3 is your current version, you may have problems with systrace. You could work around the problem creating a virtual environment for python. We used [Conda](https://conda.io/docs/). In the following [link](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/) a very useful guide for create a virtual environment for python with conda is explained. 
 
 ### RStudio
+
+## Results
