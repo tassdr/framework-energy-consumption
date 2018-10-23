@@ -1,5 +1,9 @@
 # author: Marios
 
+library(ggplot2)
+library(reshape)
+# install.packages("ggplot2")
+#install.packages("reshape")
 
 # First we change the directory to the aggregated_results,
 # where all the csv files from each experiment lie inside. 
@@ -42,3 +46,15 @@ finalDataframe = do.call(what = rbind, args = data)
 numeric_columns = sapply(finalDataframe, class) == 'numeric'
 finalDataframe[numeric_columns] = round (finalDataframe[numeric_columns], digits = 3)
 write.csv(finalDataframe, file="aggregated_data.csv")
+
+cpu <- finalDataframe[["cpu"]]
+mem <- finalDataframe[["mem"]]
+duration <- finalDataframe[["duration"]]
+battery <- finalDataframe[["battery"]]
+energy_consumption <- finalDataframe[["energy_consumption"]]
+
+quickplot(cpu)
+qplot(cpu)
+
+quickplot(mem)
+qplot(cpu, mem)
