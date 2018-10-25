@@ -32,6 +32,8 @@ Once all the repositories have been cloned, put all the folders inside a root fo
 
 Please refer each links in order to install everything you need for run all the frameworks. Make sure to run only the commands for install the dependencies, without running the command for run the frameworks.
 
+Before starting all the frameworks, just a little modification in needed. Go the React/Mobx folder and open the package.json file. In the section "script" and in the option "start" add the following code: `PORT=3006` before "react-scripts start".
+
 In order to start all the frameworks, open 9 different terminal windows and go to each sub-directories containing the repositories. Then run the following commands. 
 
 * React/Redux: `npm start`
