@@ -7,7 +7,7 @@
   "systrace_path": "/Users/Luca/Library/Android/sdk/platform-tools/systrace/systrace.py",
   "powerprofile_path": "android-runner/example/batterystats/power_profile.xml",
   "paths": [
-    "angular_ngrx_nx"
+    "react-redux"
   ],
   "profilers":{
     "trepn": {
@@ -22,7 +22,7 @@
     "interaction": [
       {
         "type": "python2",
-        "path": "add_text.py"
+        "path": "adb.py"
       }
     ],
     "before_close": "before_close.py",
