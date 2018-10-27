@@ -70,7 +70,7 @@ In order to reproduce our analysis and get the expected results, a few steps mus
 
 The first step is to is to create a folder named "Aggregated_Results" inside the directory of the RScripts/RProject.
 
-In this directory you need to place all the "aggregated_results.csv" from the experiments you conducted.
+In this directory you need to place all the "aggregated_results.csv" files from the experiments you conducted, using Android-Runner.
 
 Afterwards, you need to run the DataExploration.R script which will aggregate all data from the csv files you placed beforehand in the  "Aggregated_Results" directory into one large csv, namely "aggregated_data.csv" in the outer directory.
 
