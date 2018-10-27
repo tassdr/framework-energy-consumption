@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In   the   modern   age   of   information   and   communication systems,  traditional  desktop  applications  have  moved  to  the cloud. The need for applications to be cross-platform and offer mobile  device  support,  has  gotten  the  user  interface  to  lie  inits  entirety  through  the  window  of  a  web  browser.  This rapid  growth  and  expansion  of  mobile  devices  has  pushed software developers to explore, evaluate and experiment with several  web  front-end  frameworks  necessary  for  mobile  webapplications  development. During  the  recent  years,  an  abundance  of  front-end  web development  frameworks  have  been  introduced  to  the  market.  As  web  application  development  can  become  a  tedious process, when having to tweak the web application front-end to  have  the  desired  look  on  mobiles  in  addition  to  personal computers. Apart  from  the  look  and  feel,  developers  want  to  know which web front-end frameworks are optimized and offer great performance. Developers are constantly looking for web front-end frameworks that consume less battery in users devices. As   mobile   software   applications   operate   in   resource-constrained environments, guidelines to build energy efficient applications  are  of  utmost  importance.  The  aim  of  our experiment  is  to  evaluate  the  energy  consumption  of  each framework,  using  different  measurements  that  will  be  take nwhen  an  Android  device  is  running  an  web  application.  The results  could  reveal  the  frameworks  with  the  highest  energy consumption, granting developers additional guidance for taking informed decisions. The focus of our experiment will be on a project called "RealWorld" created by Eric Simons. Each implementation of this project uses the same HTML structure, CSS, and API specifications, but a different library/framework.
+In   the   modern   age   of   information   and   communication systems,  traditional  desktop  applications  have  moved  to  the cloud. The need for applications to be cross-platform and offer mobile  device  support,  has  gotten  the  user  interface  to  lie  inits  entirety  through  the  window  of  a  web  browser.  This rapid  growth  and  expansion  of  mobile  devices  has  pushed software developers to explore, evaluate and experiment with several  web  front-end  frameworks  necessary  for  mobile  web applications  development. During  the  recent  years,  an  abundance  of  front-end  web development  frameworks  have  been  introduced  to  the  market.  As  web  application  development  can  become  a  tedious process, when having to tweak the web application front-end to  have  the  desired  look  on  mobiles  in  addition  to  personal computers. Apart  from  the  look  and  feel,  developers  want  to  know which web front-end frameworks are optimized and offer great performance. Developers are constantly looking for web front-end frameworks that consume less battery in users devices. As   mobile   software   applications   operate   in   resource-constrained environments, guidelines to build energy efficient applications  are  of  utmost  importance.  The  aim  of  our experiment  is  to  evaluate  the  energy  consumption  of  each framework,  using  different  measurements  that  will  be  take nwhen  an  Android  device  is  running  an  web  application.  The results  could  reveal  the  frameworks  with  the  highest  energy consumption, granting developers additional guidance for taking informed decisions. The focus of our experiment will be on a project called "RealWorld" created by Eric Simons. Each implementation of this project uses the same HTML structure, CSS, and API specifications, but a different library/framework.
 
 
 ## Guidelines for experiment replication
@@ -25,9 +25,9 @@ We included most of the implementations listed in the [RealWorld repo](https://g
 
 Once all the repositories have been cloned, put all the folders inside a root folder. 
 
-Please refer each links in order to install everything you need for run all the frameworks. Make sure to run only the commands for install the dependencies, without running the command for run the frameworks.
+Please refer each links in order to install everything you need to run all the frameworks. Make sure to run only the commands for installing the dependencies, without running the command to run the frameworks.
 
-Before starting all the frameworks, just a little modification in needed. Go the React/Mobx folder and open the package.json file. In the section "script" and in the option "start" add the following code: `PORT=3006` before "react-scripts start".
+Before starting all the frameworks, just a little modification is needed. Go the React/Mobx folder and open the package.json file. In the section "script" and in the option "start" add the following code: `PORT=3006` before "react-scripts start".
 
 In order to start all the frameworks, open 9 different terminal windows and go to each sub-directories containing the repositories. Then run the following commands. 
 
@@ -44,7 +44,7 @@ In order to start all the frameworks, open 9 different terminal windows and go t
 
 ### AndroidRunner
 
-Once all the frameworks have been run, please go to the [AndroidRunner repository](https://github.com/S2-group/android-runner) and refer to the section "Install" in order to check all the techonologies you need. Then, in order to execute the experiment, clone this repository. Edit the "config.json" file modifying the "paths" field with the name of the framework which you execute the experiment. Additionally, you have to decomment the relative two lines of codes inside the "adb.py" file relative to the framework you are executing (in the main function). For example, if you are running the AngularJS framework, you may modify the "config.json" file adding "AngularJS" as path and decomment the following lines of code inside the "adb.py" file:
+Once all the frameworks have been run, please go to the [AndroidRunner repository](https://github.com/S2-group/android-runner) and refer to the section "Install" in order to check all the techonologies you need. Then, in order to execute the experiment, clone this repository. Edit the "config.json" file modifying the "paths" field with the name of the framework with which you execute the experiment. Additionally, you have to decomment the relative two lines of codes inside the "adb.py" file relative to the framework you are executing (in the main function). For example, if you are running the AngularJS framework, you may modify the "config.json" file, by adding "AngularJS" as the path and decomment the following lines of code inside the "adb.py" file:
 `#angularJS = Scenario("http://192.168.43.164:4000", 1105, 327, 621, 579, 621, 704, 924, 776, 968, 324, 403, 436, 525, 1139, 457, 1330, 599)`
 <br />
 `#angularJS.processUrl()`
@@ -53,11 +53,11 @@ You have also to modify the monkeyrunner_path, adb_path, systrace_path and power
 <br />
 Every execution of the experiment (one for each frameworks) is repeated 20 times with 2 minutes of interval between each repetition. This amount of time is introduced to be sure to not influence tentative each other. 
 <br />
-Then open a window terminal, go inside the root folder and run the following command for every frameworks: `python2 android-runner android-runner/example/web/config.json`. Be sure that your device is connected to the laptop that you are using for the experiment.
+Then, open a window terminal, go inside the root folder and run the following command for every frameworks: `python2 android-runner android-runner/example/web/config.json`. Be sure that your device is connected to the laptop that you are using for the experiment.
 <br />
 The execution of each framework requires around 1 hour for all the 20 repetitions.
 
-Note: Remember that the pc and the device need to be connected with the same network.
+Note: Remember that the pc and the device need to be connected in the same network.
 
 Note2: Remember to change the IP addresses inside the python adb file that we developed. The IP addresses must be changed inside the main function, in relation to the objects that you are using for open the frameworks.
 
