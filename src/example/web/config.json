@@ -26,7 +26,7 @@
     "interaction": [
       {
         "type": "python2",
-        "path": "add_text.py"
+        "path": "adb.py"
       }
     ],
     "before_close": "before_close.py",
