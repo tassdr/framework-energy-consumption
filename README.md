@@ -2,12 +2,7 @@
 
 ## Introduction
 
-
-
-
-## Goal of the paper as defined based on the Goals, Questions and Metrics template(GQM): 
-
-**_An analysis of front-end frameworks, for the purpose of evaluation in regards to their energy consumption, from the point of view of software developers, in the context of mobile development._**	
+In   the   modern   age   of   information   and   communication systems,  traditional  desktop  applications  have  moved  to  the cloud. The need for applications to be cross-platform and offer mobile  device  support,  has  gotten  the  user  interface  to  lie  inits  entirety  through  the  window  of  a  web  browser.  This rapid  growth  and  expansion  of  mobile  devices  has  pushed software developers to explore, evaluate and experiment with several  web  front-end  frameworks  necessary  for  mobile  webapplications  development. During  the  recent  years,  an  abundance  of  front-end  web development  frameworks  have  been  introduced  to  the  market.  As  web  application  development  can  become  a  tedious process, when having to tweak the web application front-end to  have  the  desired  look  on  mobiles  in  addition  to  personal computers. Apart  from  the  look  and  feel,  developers  want  to  know which web front-end frameworks are optimized and offer great performance. Developers are constantly looking for web front-end frameworks that consume less battery in users devices. As   mobile   software   applications   operate   in   resource-constrained environments, guidelines to build energy efficient applications  are  of  utmost  importance.  The  aim  of  our experiment  is  to  evaluate  the  energy  consumption  of  each framework,  using  different  measurements  that  will  be  take nwhen  an  Android  device  is  running  an  web  application.  The results  could  reveal  the  frameworks  with  the  highest  energy consumption, granting developers additional guidance for taking informed decisions. The focus of our experiment will be on a project called "RealWorld" created by Eric Simons. Each implementation of this project uses the same HTML structure, CSS, and API specifications, but a different library/framework.
 
 
 ## Guidelines for experiment replication.
@@ -67,7 +62,3 @@ Note: Remember that the pc and the device need to be connected with the same net
 Note2: Remember to change the IP addresses inside the python adb file that we developed. The IP addresses must be changed inside the main function, in relation to the objects that you are using for open the frameworks.
 
 Note3: If you have installed both python3 and python2 and python3 is your current version, you may have problems with systrace. You could work around the problem creating a virtual environment for python. We used [Conda](https://conda.io/docs/). In the following [link](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/) a very useful guide for create a virtual environment for python with conda is explained. 
-
-### RStudio
-
-## Results
