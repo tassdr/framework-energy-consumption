@@ -49,11 +49,11 @@ Once all the frameworks have been run, please go to the [AndoridRunner repositor
 <br />
 `#angularJS.processUrl()`
 <br />
-You have also to modify the monkeyrunner_path, adb_path, systrace_path and powerprofile_path. 
+You have also to modify the monkeyrunner_path, adb_path, systrace_path and powerprofile_path inside the config.json file. 
 <br />
 Every execution of the experiment (one for each frameworks) is repeated 20 times with 2 minutes of interval between each repetition. This amount of time is introduced to be sure to not influence tentative each other. 
 <br />
-Then open a window terminal, go inside the root folder and run the fllowing command for every frameworks: `python2 android-runner android-runner/example/web/config.json`. Be sure that your device is connected to the laptop that you are using for the experiment.
+Then open a window terminal, go inside the root folder and run the following command for every frameworks: `python2 android-runner android-runner/example/web/config.json`. Be sure that your device is connected to the laptop that you are using for the experiment.
 <br />
 The execution of each framework requires around 1 hour for all the 20 repetitions.
 
