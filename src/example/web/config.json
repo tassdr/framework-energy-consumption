@@ -7,7 +7,7 @@
   "systrace_path": "/Users/Luca/Library/Android/sdk/platform-tools/systrace/systrace.py",
   "powerprofile_path": "android-runner/example/batterystats/power_profile.xml",
   "paths": [
-    "react-redux"
+    "react_redux"
   ],
   "profilers":{
     "trepn": {
