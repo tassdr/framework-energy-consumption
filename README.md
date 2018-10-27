@@ -62,3 +62,18 @@ Note: Remember that the pc and the device need to be connected in the same netwo
 Note2: Remember to change the IP addresses inside the python adb file that we developed. The IP addresses must be changed inside the main function, in relation to the objects that you are using for open the frameworks.
 
 Note3: If you have installed both python3 and python2 and python3 is your current version, you may have problems with systrace. You could work around the problem creating a virtual environment for python. We used [Conda](https://conda.io/docs/). In the following [link](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/) a very useful guide for create a virtual environment for python with conda is explained. 
+
+### Statistical Analysis
+
+For the statistical analysis and the hypotheses testing, we used the R statistical language and moreover, the RStudio which is an IDE for R. 
+In order to reproduce our analysis and get the expected results, a few steps must be done priorly.
+
+The first step is to is to create a folder named "Aggregated_Results" inside the directory of the RScripts/RProject.
+
+In this directory you need to place all the "aggregated_results.csv" from the experiments you conducted.
+
+Afterwards, you need to run the DataExploration.R script which will aggregate all data from the csv files you placed beforehand in the  "Aggregated_Results" directory into one large csv, namely "aggregated_data.csv" in the outer directory.
+
+Then, from the same directory as "aggregated_data.csv" you have to run the DataAnalysis.R script which will conduct our main analysis and hypotheses testing. Moreover, it will load the data, plot them and run the actual hypotheses tests as mentioned in the paper.
+
+Note: In order to run the DataAnalysis.R script you need to make sure that you have the required packages, namely ggplot for plotting the graphs, car for the Levene homogeneity of variance test, Reshape for data reshaping and sjstats for common statistical computations.
