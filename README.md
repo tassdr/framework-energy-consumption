@@ -65,7 +65,7 @@ Then, open a window terminal, go inside the root folder and run the following co
 <br />
 The execution of each framework requires around 1 hour for all the 20 repetitions.
 
-For have a more clear folder with all the results, we edited by hand the names of the folders. Every time that a test has been performed we edited the name of the output folder adding "_nameframework" ath the end. This has been done just for have a more readble folder.
+For have a more clear folder with all the results (output folder), we edited by hand the names of the folders. Every time that a test has been performed we edited the name of the output folder adding "_nameframework" ath the end. This has been done just for have a more readble folder.
 
 *Note: Remember that the pc and the device need to be connected in the same network.*
 
