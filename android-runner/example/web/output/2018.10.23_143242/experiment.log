@@ -1,0 +1,860 @@
+2018-10-23 14:32:42,439:INFO:ExperimentFactory:/Users/Luca/Desktop/Green_Lab/android-runner/example/web/config.json
+2018-10-23 14:32:45,660:DEBUG:ExperimentRunner.Adb:Device list:
+{0: 'KYVKK16119600056'}
+2018-10-23 14:32:45,818:DEBUG:Trepn:Initialized
+2018-10-23 14:32:45,838:DEBUG:Python2:Imported /Users/Luca/Desktop/Green_Lab/android-runner/example/web/before_experiment.py
+2018-10-23 14:32:45,839:DEBUG:Python2:Imported /Users/Luca/Desktop/Green_Lab/android-runner/example/web/before_run.py
+2018-10-23 14:32:45,840:DEBUG:Python2:Imported /Users/Luca/Desktop/Green_Lab/android-runner/example/web/after_launch.py
+2018-10-23 14:32:45,841:DEBUG:Python2:Imported /Users/Luca/Desktop/Green_Lab/android-runner/example/web/add_text.py
+2018-10-23 14:32:45,841:DEBUG:Python2:Imported /Users/Luca/Desktop/Green_Lab/android-runner/example/web/before_close.py
+2018-10-23 14:32:45,842:DEBUG:Python2:Imported /Users/Luca/Desktop/Green_Lab/android-runner/example/web/after_run.py
+2018-10-23 14:32:45,843:DEBUG:Python2:Imported /Users/Luca/Desktop/Green_Lab/android-runner/example/web/after_experiment.py
+2018-10-23 14:32:45,852:DEBUG:Python2:Imported /Users/Luca/Desktop/Green_Lab/android-runner/example/web/aggregation.py
+2018-10-23 14:32:46,546:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "pm list packages" returned: 
+package:com.google.android.youtube
+package:com.android.providers.telephony
+package:com.android.sdm.plugins.connmo
+package:com.google.android.googlequicksearchbox
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.huawei.entitlement
+package:com.google.android.onetimeinitializer
+package:com.android.wallpapercropper
+package:com.quicinc.cne.CNEService
+package:com.android.documentsui
+package:com.android.externalstorage
+package:com.google.android.apps.enterprise.dmagent
+package:com.android.htmlviewer
+package:com.huawei.callstatisticsutils
+package:com.android.mms.service
+package:com.android.providers.downloads
+package:com.google.android.apps.messaging
+package:android.autoinstalls.config.google.nexus
+package:com.google.android.configupdater
+package:com.android.defcontainer
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.qualcomm.cabl
+package:com.android.certinstaller
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:android
+package:com.android.hotwordenrollment
+package:com.google.android.apps.inputmethod.hindi
+package:com.android.nfc
+package:com.android.stk
+package:com.android.backupconfirm
+package:com.google.android.launcher
+package:com.google.android.deskclock
+package:org.codeaurora.ims
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.android.sdm.plugins.sprintdm
+package:com.google.android.instantapps.supervisor
+package:com.google.android.setupwizard
+package:com.qualcomm.qcrilmsgtunnel
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.google.android.music
+package:com.android.printspooler
+package:com.android.sdm.plugins.diagmon
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.google.android.dialer
+package:com.google.android.apps.cloudprint
+package:com.android.musicfx
+package:com.google.android.apps.docs
+package:com.google.android.apps.maps
+package:com.google.android.apps.plus
+package:com.android.cellbroadcastreceiver
+package:com.google.android.webview
+package:com.google.android.contacts
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.android.facelock
+package:com.android.keychain
+package:com.google.android.gm.exchange
+package:com.google.android.calculator
+package:com.android.chrome
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tag
+package:com.google.android.tts
+package:com.google.android.apps.walletnfcrel
+package:com.android.calllogbackup
+package:com.google.android.partnersetup
+package:com.google.android.videos
+package:com.android.proxyhandler
+package:com.google.android.feedback
+package:com.google.android.apps.photos
+package:com.google.android.calendar
+package:com.android.managedprovisioning
+package:com.android.sdm.plugins.dcmo
+package:com.android.providers.partnerbookmarks
+package:com.google.android.gsf.login
+package:com.android.wallpaper.livepicker
+package:com.huawei.mmitest
+package:org.mozilla.firefox
+package:com.google.android.inputmethod.korean
+package:com.google.android.backuptransport
+package:com.android.settings
+package:com.google.android.inputmethod.pinyin
+package:com.google.android.setupwizard.overlay.smartdevice
+package:com.google.android.apps.tycho
+package:com.android.omadm.service
+package:com.huawei.sarcontrolservice
+package:com.android.vpndialogs
+package:com.google.android.talk
+package:com.android.phone
+package:com.android.shell
+package:com.android.providers.userdictionary
+package:com.google.android.inputmethod.japanese
+package:com.android.location.fused
+package:com.android.systemui
+package:com.android.bluetoothmidiservice
+package:com.quicinc.trepn
+package:com.android.huawei.hiddenmenu
+package:com.google.android.launcher.layouts.angler
+package:com.google.android.play.games
+package:com.google.android.apps.gcs
+package:com.android.bluetooth
+package:com.qualcomm.timeservice
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.google.android.GoogleCamera
+package:com.google.android.inputmethod.latin
+
+2018-10-23 14:32:47,046:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "pm list packages" returned: 
+package:com.google.android.youtube
+package:com.android.providers.telephony
+package:com.android.sdm.plugins.connmo
+package:com.google.android.googlequicksearchbox
+package:com.android.providers.calendar
+package:com.android.providers.media
+package:com.huawei.entitlement
+package:com.google.android.onetimeinitializer
+package:com.android.wallpapercropper
+package:com.quicinc.cne.CNEService
+package:com.android.documentsui
+package:com.android.externalstorage
+package:com.google.android.apps.enterprise.dmagent
+package:com.android.htmlviewer
+package:com.huawei.callstatisticsutils
+package:com.android.mms.service
+package:com.android.providers.downloads
+package:com.google.android.apps.messaging
+package:android.autoinstalls.config.google.nexus
+package:com.google.android.configupdater
+package:com.android.defcontainer
+package:com.android.providers.downloads.ui
+package:com.android.vending
+package:com.android.pacprocessor
+package:com.qualcomm.cabl
+package:com.android.certinstaller
+package:com.android.carrierconfig
+package:com.google.android.marvin.talkback
+package:android
+package:com.android.hotwordenrollment
+package:com.google.android.apps.inputmethod.hindi
+package:com.android.nfc
+package:com.android.stk
+package:com.android.backupconfirm
+package:com.google.android.launcher
+package:com.google.android.deskclock
+package:org.codeaurora.ims
+package:com.android.statementservice
+package:com.google.android.gm
+package:com.android.sdm.plugins.sprintdm
+package:com.google.android.instantapps.supervisor
+package:com.google.android.setupwizard
+package:com.qualcomm.qcrilmsgtunnel
+package:com.android.providers.settings
+package:com.android.sharedstoragebackup
+package:com.google.android.music
+package:com.android.printspooler
+package:com.android.sdm.plugins.diagmon
+package:com.android.dreams.basic
+package:com.android.inputdevices
+package:com.google.android.dialer
+package:com.google.android.apps.cloudprint
+package:com.android.musicfx
+package:com.google.android.apps.docs
+package:com.google.android.apps.maps
+package:com.google.android.apps.plus
+package:com.android.cellbroadcastreceiver
+package:com.google.android.webview
+package:com.google.android.contacts
+package:com.android.server.telecom
+package:com.google.android.syncadapters.contacts
+package:com.android.facelock
+package:com.android.keychain
+package:com.google.android.gm.exchange
+package:com.google.android.calculator
+package:com.android.chrome
+package:com.google.android.packageinstaller
+package:com.google.android.gms
+package:com.google.android.gsf
+package:com.google.android.tag
+package:com.google.android.tts
+package:com.google.android.apps.walletnfcrel
+package:com.android.calllogbackup
+package:com.google.android.partnersetup
+package:com.google.android.videos
+package:com.android.proxyhandler
+package:com.google.android.feedback
+package:com.google.android.apps.photos
+package:com.google.android.calendar
+package:com.android.managedprovisioning
+package:com.android.sdm.plugins.dcmo
+package:com.android.providers.partnerbookmarks
+package:com.google.android.gsf.login
+package:com.android.wallpaper.livepicker
+package:com.huawei.mmitest
+package:org.mozilla.firefox
+package:com.google.android.inputmethod.korean
+package:com.google.android.backuptransport
+package:com.android.settings
+package:com.google.android.inputmethod.pinyin
+package:com.google.android.setupwizard.overlay.smartdevice
+package:com.google.android.apps.tycho
+package:com.android.omadm.service
+package:com.huawei.sarcontrolservice
+package:com.android.vpndialogs
+package:com.google.android.talk
+package:com.android.phone
+package:com.android.shell
+package:com.android.providers.userdictionary
+package:com.google.android.inputmethod.japanese
+package:com.android.location.fused
+package:com.android.systemui
+package:com.android.bluetoothmidiservice
+package:com.quicinc.trepn
+package:com.android.huawei.hiddenmenu
+package:com.google.android.launcher.layouts.angler
+package:com.google.android.play.games
+package:com.google.android.apps.gcs
+package:com.android.bluetooth
+package:com.qualcomm.timeservice
+package:com.android.providers.contacts
+package:com.android.captiveportallogin
+package:com.google.android.GoogleCamera
+package:com.google.android.inputmethod.latin
+
+2018-10-23 14:32:47,100:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:32:47,144:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:32:47,185:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:32:47,227:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:32:47,227:INFO:WebExperiment:Device: nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+2018-10-23 14:32:47,228:INFO:Profilers:Loading
+2018-10-23 14:32:47,266:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:32:47,300:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:32:47,332:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:32:47,366:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:32:47,367:DEBUG:Trepn:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Loading configuration
+2018-10-23 14:32:47,991:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "monkey -p com.quicinc.trepn 1" returned: 
+Events injected: 1
+## Network stats: elapsed time=50ms (0ms mobile, 0ms wifi, 50ms not connected)
+
+2018-10-23 14:32:54,006:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am broadcast -a com.quicinc.trepn.load_preferences -e com.quicinc.trepn.load_preferences_file "/sdcard/trepn/saved_preferences/trepn.pref"" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.load_preferences (has extras) }
+Broadcast completed: result=0
+
+2018-10-23 14:32:55,782:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am force-stop com.quicinc.trepn" returned: 
+
+2018-10-23 14:32:58,530:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am startservice com.quicinc.trepn/.TrepnService" returned: 
+Starting service: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.TrepnService }
+
+2018-10-23 14:32:58,589:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:32:58,648:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys battery unplug" returned: 
+
+2018-10-23 14:32:58,684:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:32:58,715:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:32:58,715:DEBUG:Scripts:Running hook before_experiment on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: ()
+kwargs: {}
+2018-10-23 14:32:58,830:INFO:Python2:before_experiment.py
+2018-10-23 14:32:58,832:DEBUG:Python2:before_experiment.py returned None
+2018-10-23 14:32:58,844:INFO:WebExperiment:URL: clojurescript
+2018-10-23 14:32:58,844:INFO:WebExperiment:Run 1 of 20
+2018-10-23 14:32:58,875:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:32:58,906:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:32:58,907:DEBUG:Scripts:Running hook before_run on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: ()
+kwargs: {}
+2018-10-23 14:32:58,915:INFO:Python2:before_run.py
+2018-10-23 14:32:58,916:DEBUG:Python2:before_run.py returned None
+2018-10-23 14:32:58,920:INFO:Chrome:KYVKK16119600056: Start
+2018-10-23 14:32:59,817:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am start -S -a android.intent.action.VIEW -n com.android.chrome/com.google.android.apps.chrome.Main --activity-clear-task" returned: 
+Stopping: com.android.chrome
+Starting: Intent { act=android.intent.action.VIEW flg=0x8000 cmp=com.android.chrome/com.google.android.apps.chrome.Main }
+
+2018-10-23 14:33:04,920:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys window windows" returned: 
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #6 Window{1531618 u0 NavigationBar}:
+    mDisplayId=0 stackId=3 mSession=Session{c8835e7 6548:u0a10027} mClient=android.os.BinderProxy@edf65fb
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2019 fl=#1840068 fmt=-3}
+    Requested w=1440 h=168 mLayoutSeq=122
+    mBaseLayer=211000 mSubLayer=0 mAnimLayer=211000+0=211000 mLastLayer=211000
+    mToken=WindowToken{1428487 null}
+    mRootToken=WindowToken{1428487 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=true mShownFrame=[0.0,2392.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,2392][1440,2560] last=[0,2392][1440,2560]
+    mSystemDecorRect=[0,0][1440,168] last=[0,0][0,0]
+    Frames: containing=[0,2392][1440,2560] parent=[0,2392][1440,2560]
+        display=[0,2392][1440,2560] overscan=[0,2392][1440,2560]
+        content=[0,2392][1440,2560] visible=[0,2392][1440,2560]
+        decor=[0,0][0,0]
+        outset=[0,2392][1440,2560]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{51dbfb4 NavigationBar}:
+      mSurface=Surface(name=NavigationBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=211000 alpha=1.0 rect=(0.0,2392.0) 1440.0 x 168.0
+    mLastFreezeDuration=+50s121ms
+  Window #5 Window{cb2e832 u0 StatusBar}:
+    mDisplayId=0 stackId=3 mSession=Session{c8835e7 6548:u0a10027} mClient=android.os.BinderProxy@255283d
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx84) gr=#30 sim=#10 ty=2000 fl=#81840048 fmt=-3 vsysui=0x600}
+    Requested w=1440 h=84 mLayoutSeq=122
+    mBaseLayer=161000 mSubLayer=0 mAnimLayer=161000+0=161000 mLastLayer=161000
+    mToken=WindowToken{1428487 null}
+    mRootToken=WindowToken{1428487 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,84.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,84] last=[0,0][1440,84]
+    mSystemDecorRect=[0,0][1440,84] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2392]
+        content=[0,0][1440,84] visible=[0,0][1440,84]
+        decor=[0,0][0,0]
+        outset=[0,0][1440,2392]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{74ba7dd StatusBar}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      mSurface=Surface(name=StatusBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=161000 alpha=1.0 rect=(0.0,0.0) 1440.0 x 84.0
+    mLastFreezeDuration=+53s904ms
+  Window #4 Window{fc917d5 u0 KeyguardScrim}:
+    mDisplayId=0 stackId=3 mSession=Session{3cd46fc 4962:1000} mClient=android.view.ViewRootImpl$W@e9b948c
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#1110900 pfl=0x1 fmt=-3 or=5 vsysui=0x3610000}
+    Requested w=1440 h=2392 mLayoutSeq=31
+    mBaseLayer=141000 mSubLayer=0 mAnimLayer=141000+0=141000 mLastLayer=141000
+    mToken=WindowToken{1428487 null}
+    mRootToken=WindowToken{1428487 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x3610000
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2392.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2392] last=[0,0][1440,2392]
+    mSystemDecorRect=[0,0][1440,2392] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{a49ff52 KeyguardScrim}:
+  Window #3 Window{99b4b8a u0 AssistPreviewPanel}:
+    mDisplayId=0 stackId=3 mSession=Session{c8835e7 6548:u0a10027} mClient=android.os.BinderProxy@7ce21f5
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx875) gr=#800053 sim=#31 ty=2033 fl=#1000118 fmt=-3 vsysui=0x700}
+    Requested w=0 h=0 mLayoutSeq=5
+    mBaseLayer=41000 mSubLayer=0 mAnimLayer=41000+0=41000 mLastLayer=0
+    mToken=WindowToken{1428487 null}
+    mRootToken=WindowToken{1428487 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    mFrame=[0,2392][1440,2392] last=[0,0][0,0]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2392]
+        content=[0,2392][1440,2392] visible=[0,2392][1440,2392]
+        decor=[0,84][1440,2392]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{8b8e223 AssistPreviewPanel}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #2 Window{b905f65 u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity}:
+    mDisplayId=0 stackId=3 mSession=Session{5d3732e 10161:u0a10039} mClient=android.os.BinderProxy@9fc005c
+    mOwnerUid=10039 mShowToOwnerOnly=true package=com.android.chrome appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#122 ty=1 fl=#81810100 wanim=0x103045b vsysui=0x600 needsMenuKey=2}
+    Requested w=1440 h=2392 mLayoutSeq=122
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21010+0=21010 mLastLayer=21010
+    mToken=AppWindowToken{9fd9fdf token=Token{cb07132 ActivityRecord{f1f353d u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t3595}}}
+    mRootToken=AppWindowToken{9fd9fdf token=Token{cb07132 ActivityRecord{f1f353d u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t3595}}}
+    mAppToken=AppWindowToken{9fd9fdf token=Token{cb07132 ActivityRecord{f1f353d u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t3595}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{5b12320 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity}:
+      mSurface=Surface(name=com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21010 alpha=1.0 rect=(0.0,0.0) 1440.0 x 2560.0
+  Window #1 Window{8ff3b5b u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+    mDisplayId=0 stackId=0 mSession=Session{710765e 7156:u0a10029} mClient=android.os.BinderProxy@3699a6a
+    mOwnerUid=10029 mShowToOwnerOnly=true package=com.google.android.googlequicksearchbox appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 fmt=-3 wanim=0x103045b vsysui=0x700 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=104
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=21005
+    mToken=AppWindowToken{67b299a token=Token{6896e45 ActivityRecord{ec67ebc u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3591}}}
+    mRootToken=AppWindowToken{67b299a token=Token{6896e45 ActivityRecord{ec67ebc u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3591}}}
+    mAppToken=AppWindowToken{67b299a token=Token{6896e45 ActivityRecord{ec67ebc u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3591}}}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{fdfe4d9 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+    mWallpaperX=0.0 mWallpaperY=0.5
+  Window #0 Window{cef22a9 u0 com.android.systemui.ImageWallpaper}:
+    mDisplayId=0 stackId=3 mSession=Session{c8835e7 6548:u0a10027} mClient=android.os.BinderProxy@5c27630
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1634x2560) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302ea}
+    Requested w=1634 h=2560 mLayoutSeq=115
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=false
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21000+0=21000 mLastLayer=21000
+    mToken=WindowToken{2e4be9e android.os.Binder@7405d44}
+    mRootToken=WindowToken{2e4be9e android.os.Binder@7405d44}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=true
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=true mShownFrame=[0.0,0.0][1634.0,2560.0] isReadyForDisplay()=false
+    mFrame=[0,0][1634,2560] last=[0,0][1634,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[-10000,-10000][10000,10000] overscan=[0,0][1440,2560]
+        content=[0,0][1440,2560] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][1440,2560]
+    Cur insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{9ad7d7f com.android.systemui.ImageWallpaper}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      mSurface=Surface(name=com.android.systemui.ImageWallpaper)
+      mDrawState=HAS_DRAWN mLastHidden=true
+      Surface: shown=false layer=21000 alpha=1.0 rect=(0.0,0.0) 1634.0 x 2560.0
+    mWallpaperX=0.0 mWallpaperY=0.5
+
+  mCurConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{b905f65 u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity}
+  mFocusedApp=AppWindowToken{9fd9fdf token=Token{cb07132 ActivityRecord{f1f353d u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity t3595}}}
+  mInTouchMode=true mLayoutSeq=122
+  mLastDisplayFreezeDuration=0 due to Window{cb2e832 u0 StatusBar}
+  mSystemDecorLayer=161000 mScreenRect=[0,0][1440,2560]
+  mLastStatusBarVisibility=0x8600
+  mWallpaperTarget=null
+  mLastWallpaperX=0.0 mLastWallpaperY=0.5
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=173
+  mDisplayFrozen=false windows=0 client=false apps=0 waitingForConfig=false
+  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mForcedAppOrientation=-1
+  mDeferredRotationPauseCount=0
+  Animation settings: disabled=false window=1.0 transition=1.0 animator=1.0
+  mTraversalScheduled=false
+ mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+    mNextAppTransition=TRANSIT_UNSET
+    mAppTransitionState=APP_STATE_IDLE
+
+2018-10-23 14:33:04,926:DEBUG:Device:Current activity: com.android.chrome
+2018-10-23 14:33:04,971:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:33:05,030:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:33:05,030:DEBUG:Scripts:Running hook after_launch on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: (u'KYVKK16119600056', 'com.android.chrome')
+kwargs: {}
+2018-10-23 14:33:05,036:INFO:Python2:after_launch.py
+2018-10-23 14:33:05,038:DEBUG:Python2:after_launch.py returned None
+2018-10-23 14:33:05,080:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:33:05,119:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:33:05,119:DEBUG:Scripts:Running hook after_launch on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: (<ExperimentRunner.Browsers.Chrome.Chrome object at 0x105625150>,)
+kwargs: {}
+2018-10-23 14:33:05,125:INFO:Python2:after_launch.py
+2018-10-23 14:33:05,127:DEBUG:Python2:after_launch.py returned None
+2018-10-23 14:33:05,130:INFO:Profilers:Start profiling
+2018-10-23 14:33:05,166:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:33:05,203:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:33:05,242:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:33:05,276:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:33:05,276:DEBUG:Trepn:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Start profiling
+2018-10-23 14:33:06,323:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am broadcast -a com.quicinc.trepn.start_profiling" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.start_profiling }
+Broadcast completed: result=0
+
+2018-10-23 14:33:06,324:INFO:Chrome:KYVKK16119600056: Load URL: clojurescript
+2018-10-23 14:33:07,122:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am start -a android.intent.action.VIEW -n com.android.chrome/com.google.android.apps.chrome.Main -d clojurescript" returned: 
+Starting: Intent { act=android.intent.action.VIEW dat=clojurescript cmp=com.android.chrome/com.google.android.apps.chrome.Main }
+
+2018-10-23 14:33:12,165:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:33:12,202:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:33:12,203:DEBUG:Scripts:Running hook interaction on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: (<ExperimentRunner.Browsers.Chrome.Chrome object at 0x105625150>,)
+kwargs: {}
+2018-10-23 14:33:12,211:INFO:Python2:add_text.py
+2018-10-23 14:34:06,466:DEBUG:Python2:add_text.py returned None
+2018-10-23 14:34:06,479:INFO:Profilers:Stop profiling
+2018-10-23 14:34:06,518:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:34:06,555:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:34:06,601:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:34:06,636:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:34:06,637:DEBUG:Trepn:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Stop profiling
+2018-10-23 14:34:07,946:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am broadcast -a com.quicinc.trepn.stop_profiling" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.stop_profiling }
+Broadcast completed: result=0
+
+2018-10-23 14:34:07,993:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:34:08,034:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:34:08,035:DEBUG:Scripts:Running hook before_close on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: (<ExperimentRunner.Browsers.Chrome.Chrome object at 0x105625150>,)
+kwargs: {}
+2018-10-23 14:34:08,044:INFO:Python2:before_close.py
+2018-10-23 14:34:08,046:DEBUG:Python2:before_close.py returned None
+2018-10-23 14:34:08,111:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys window windows" returned: 
+WINDOW MANAGER WINDOWS (dumpsys window windows)
+  Window #5 Window{1531618 u0 NavigationBar}:
+    mDisplayId=0 stackId=0 mSession=Session{c8835e7 6548:u0a10027} mClient=android.os.BinderProxy@edf65fb
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#20 ty=2019 fl=#1840068 fmt=-3}
+    Requested w=1440 h=168 mLayoutSeq=206
+    mBaseLayer=211000 mSubLayer=0 mAnimLayer=211000+0=211000 mLastLayer=211000
+    mToken=WindowToken{1428487 null}
+    mRootToken=WindowToken{1428487 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=true mShownFrame=[0.0,2392.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,2392][1440,2560] last=[0,2392][1440,2560]
+    mSystemDecorRect=[0,0][1440,168] last=[0,0][0,0]
+    Frames: containing=[0,2392][1440,2560] parent=[0,2392][1440,2560]
+        display=[0,2392][1440,2560] overscan=[0,2392][1440,2560]
+        content=[0,2392][1440,2560] visible=[0,2392][1440,2560]
+        decor=[0,0][0,0]
+        outset=[0,2392][1440,2560]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{51dbfb4 NavigationBar}:
+      mSurface=Surface(name=NavigationBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=211000 alpha=1.0 rect=(0.0,2392.0) 1440.0 x 168.0
+    mLastFreezeDuration=+50s121ms
+  Window #4 Window{cb2e832 u0 StatusBar}:
+    mDisplayId=0 stackId=0 mSession=Session{c8835e7 6548:u0a10027} mClient=android.os.BinderProxy@255283d
+    mOwnerUid=10027 mShowToOwnerOnly=false package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx84) gr=#30 sim=#10 ty=2000 fl=#81840048 fmt=-3 vsysui=0x600}
+    Requested w=1440 h=84 mLayoutSeq=206
+    mBaseLayer=161000 mSubLayer=0 mAnimLayer=161000+0=161000 mLastLayer=161000
+    mToken=WindowToken{1428487 null}
+    mRootToken=WindowToken{1428487 null}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x600
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,84.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,84] last=[0,0][1440,84]
+    mSystemDecorRect=[0,0][1440,84] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2392]
+        content=[0,0][1440,84] visible=[0,0][1440,84]
+        decor=[0,0][0,0]
+        outset=[0,0][1440,2392]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{74ba7dd StatusBar}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      mSurface=Surface(name=StatusBar)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=161000 alpha=1.0 rect=(0.0,0.0) 1440.0 x 84.0
+    mLastFreezeDuration=+53s904ms
+  Window #3 Window{fc917d5 u0 KeyguardScrim}:
+    mDisplayId=0 stackId=0 mSession=Session{3cd46fc 4962:1000} mClient=android.view.ViewRootImpl$W@e9b948c
+    mOwnerUid=1000 mShowToOwnerOnly=false package=android appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=2029 fl=#1110900 pfl=0x1 fmt=-3 or=5 vsysui=0x3610000}
+    Requested w=1440 h=2392 mLayoutSeq=31
+    mBaseLayer=141000 mSubLayer=0 mAnimLayer=141000+0=141000 mLastLayer=141000
+    mToken=WindowToken{1428487 null}
+    mRootToken=WindowToken{1428487 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x3610000
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=false mShownFrame=[0.0,0.0][1440.0,2392.0] isReadyForDisplay()=false
+    mFrame=[0,0][1440,2392] last=[0,0][1440,2392]
+    mSystemDecorRect=[0,0][1440,2392] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,0] visible=[0,84][0,0] stable=[0,84][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{a49ff52 KeyguardScrim}:
+  Window #2 Window{99b4b8a u0 AssistPreviewPanel}:
+    mDisplayId=0 stackId=0 mSession=Session{c8835e7 6548:u0a10027} mClient=android.os.BinderProxy@7ce21f5
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillx875) gr=#800053 sim=#31 ty=2033 fl=#1000118 fmt=-3 vsysui=0x700}
+    Requested w=0 h=0 mLayoutSeq=5
+    mBaseLayer=41000 mSubLayer=0 mAnimLayer=41000+0=41000 mLastLayer=0
+    mToken=WindowToken{1428487 null}
+    mRootToken=WindowToken{1428487 null}
+    mViewVisibility=0x8 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=false mShownFrame=[0.0,0.0][0.0,0.0] isReadyForDisplay()=false
+    mFrame=[0,2392][1440,2392] last=[0,0][0,0]
+    mSystemDecorRect=[0,0][0,0] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2392] parent=[0,0][1440,2392]
+        display=[0,0][1440,2392] overscan=[0,0][1440,2392]
+        content=[0,2392][1440,2392] visible=[0,2392][1440,2392]
+        decor=[0,84][1440,2392]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,0][0,0] visible=[0,0][0,0] stable=[0,0][0,0] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{8b8e223 AssistPreviewPanel}:
+      mShownAlpha=0.0 mAlpha=1.0 mLastAlpha=0.0
+  Window #1 Window{8ff3b5b u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+    mDisplayId=0 stackId=0 mSession=Session{710765e 7156:u0a10029} mClient=android.os.BinderProxy@3699a6a
+    mOwnerUid=10029 mShowToOwnerOnly=true package=com.google.android.googlequicksearchbox appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#81910100 fmt=-3 wanim=0x103045b vsysui=0x700 needsMenuKey=2}
+    Requested w=1440 h=2560 mLayoutSeq=206
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=21005
+    mToken=AppWindowToken{67b299a token=Token{6896e45 ActivityRecord{ec67ebc u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3591}}}
+    mRootToken=AppWindowToken{67b299a token=Token{6896e45 ActivityRecord{ec67ebc u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3591}}}
+    mAppToken=AppWindowToken{67b299a token=Token{6896e45 ActivityRecord{ec67ebc u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3591}}}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x700
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=true mShownFrame=[0.0,0.0][1440.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,0][1440,2560] last=[0,0][1440,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[0,0][1440,2560] overscan=[0,0][1440,2560]
+        content=[0,84][1440,2392] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][0,0]
+    Cur insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][0,0] content=[0,84][0,168] visible=[0,84][0,168] stable=[0,84][0,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{fdfe4d9 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}:
+      mSurface=Surface(name=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21005 alpha=1.0 rect=(0.0,0.0) 1440.0 x 2560.0
+    mWallpaperX=0.0 mWallpaperY=0.5
+  Window #0 Window{cef22a9 u0 com.android.systemui.ImageWallpaper}:
+    mDisplayId=0 stackId=0 mSession=Session{c8835e7 6548:u0a10027} mClient=android.os.BinderProxy@5c27630
+    mOwnerUid=10027 mShowToOwnerOnly=true package=com.android.systemui appop=NONE
+    mAttrs=WM.LayoutParams{(0,0)(1634x2560) gr=#800033 ty=2013 fl=#318 fmt=2 wanim=0x10302ea}
+    Requested w=1634 h=2560 mLayoutSeq=206
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true mWallpaperVisible=true
+    mBaseLayer=21000 mSubLayer=0 mAnimLayer=21000+0=21000 mLastLayer=21000
+    mToken=WindowToken{2e4be9e android.os.Binder@7405d44}
+    mRootToken=WindowToken{2e4be9e android.os.Binder@7405d44}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mSeq=0 mSystemUiVisibility=0x0
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+    mHasSurface=true mShownFrame=[0.0,0.0][1634.0,2560.0] isReadyForDisplay()=true
+    mFrame=[0,0][1634,2560] last=[0,0][1634,2560]
+    mSystemDecorRect=[0,0][1440,2560] last=[0,0][0,0]
+    Frames: containing=[0,0][1440,2560] parent=[0,0][1440,2560]
+        display=[-10000,-10000][10000,10000] overscan=[0,0][1440,2560]
+        content=[0,0][1440,2560] visible=[0,84][1440,2392]
+        decor=[0,0][1440,2560]
+        outset=[0,0][1440,2560]
+    Cur insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] outsets=[0,0][0,0]
+    Lst insets: overscan=[0,0][194,0] content=[0,0][194,0] visible=[0,84][194,168] stable=[0,84][194,168] physical=[0,0][0,0] outset=[0,0][0,0]
+    WindowStateAnimator{9ad7d7f com.android.systemui.ImageWallpaper}:
+      mAnimating=false mLocalAnimating=false mAnimationIsEntrance=true mAnimation=null
+      mSurface=Surface(name=com.android.systemui.ImageWallpaper)
+      mDrawState=HAS_DRAWN mLastHidden=false
+      Surface: shown=true layer=21000 alpha=1.0 rect=(0.0,0.0) 1634.0 x 2560.0
+    mWallpaperX=0.0 mWallpaperY=0.5
+
+  mCurConfiguration={1.0 ?mcc?mnc en_US ldltr sw411dp w411dp h659dp 560dpi nrml port finger -keyb/v/h -nav/h s.4}
+  mHasPermanentDpad=false
+  mCurrentFocus=Window{8ff3b5b u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+  mFocusedApp=AppWindowToken{67b299a token=Token{6896e45 ActivityRecord{ec67ebc u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t3591}}}
+  mInTouchMode=true mLayoutSeq=206
+  mLastDisplayFreezeDuration=0 due to Window{cb2e832 u0 StatusBar}
+  mSystemDecorLayer=161000 mScreenRect=[0,0][1440,2560]
+  mLastStatusBarVisibility=0x8700
+  mWallpaperTarget=Window{8ff3b5b u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL}
+  mLastWallpaperX=0.0 mLastWallpaperY=0.5
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=291
+  mDisplayFrozen=false windows=0 client=false apps=0 waitingForConfig=false
+  mRotation=0 mAltOrientation=false
+  mLastWindowForcedOrientation=-1 mForcedAppOrientation=5
+  mDeferredRotationPauseCount=0
+  Animation settings: disabled=false window=1.0 transition=1.0 animator=1.0
+  mTraversalScheduled=false
+ mSkipAppTransitionAnimation=false
+  mLayoutToAnim:
+    mNextAppTransition=TRANSIT_UNSET
+    mAppTransitionState=APP_STATE_IDLE
+
+2018-10-23 14:34:08,116:DEBUG:Device:Current activity: com.google.android.googlequicksearchbox
+2018-10-23 14:34:08,155:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:34:08,196:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:34:08,197:DEBUG:Scripts:Running hook before_close on device nexus6p (KYVKK16119600056, Android 6.0.1, API level 23)
+args: (u'KYVKK16119600056', 'com.google.android.googlequicksearchbox')
+kwargs: {}
+2018-10-23 14:34:08,206:INFO:Python2:before_close.py
+2018-10-23 14:34:08,207:DEBUG:Python2:before_close.py returned None
+2018-10-23 14:34:08,210:INFO:Chrome:KYVKK16119600056: Stop
+2018-10-23 14:34:08,968:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am force-stop com.android.chrome" returned: 
+
+2018-10-23 14:34:09,550:INFO:ExperimentRunner.Adb:KYVKK16119600056: Data of "com.android.chrome" cleared
+2018-10-23 14:34:10,977:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:34:11,028:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "dumpsys battery reset" returned: 
+
+2018-10-23 14:34:11,029:INFO:Profilers:Stop profiling
+2018-10-23 14:34:11,063:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:34:11,097:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:34:11,127:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:34:11,158:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:34:11,159:DEBUG:Trepn:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Stop profiling
+2018-10-23 14:34:11,784:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am broadcast -a com.quicinc.trepn.stop_profiling" returned: 
+Broadcasting: Intent { act=com.quicinc.trepn.stop_profiling }
+Broadcast completed: result=0
+
+2018-10-23 14:34:11,784:INFO:Profilers:Unloading
+2018-10-23 14:34:11,819:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:34:11,855:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:34:11,890:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.release" returned: 
+6.0.1
+
+2018-10-23 14:34:11,925:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "getprop ro.build.version.sdk" returned: 
+23
+
+2018-10-23 14:34:11,926:DEBUG:Trepn:nexus6p (KYVKK16119600056, Android 6.0.1, API level 23): Cleanup
+2018-10-23 14:34:12,628:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am stopservice com.quicinc.trepn/.TrepnService" returned: 
+Stopping service: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.quicinc.trepn/.TrepnService }
+Service stopped
+
+2018-10-23 14:34:12,673:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "rm -r /sdcard/trepn/saved_preferences/trepn.pref" returned: 
+
+2018-10-23 14:34:12,674:INFO:Chrome:KYVKK16119600056: Stop
+2018-10-23 14:34:13,395:DEBUG:ExperimentRunner.Adb:KYVKK16119600056: "am force-stop com.android.chrome" returned: 
+
+2018-10-23 14:34:13,978:INFO:ExperimentRunner.Adb:KYVKK16119600056: Data of "com.android.chrome" cleared
