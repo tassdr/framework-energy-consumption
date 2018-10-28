@@ -50,7 +50,9 @@ In order to start all the frameworks, open 9 different terminal windows and go t
 
 ### AndroidRunner
 
-Once all the frameworks have been run, please go to the [AndroidRunner repository](https://github.com/S2-group/android-runner) and refer to the section "Install" in order to check all the techonologies you need. Then, in order to execute the experiment, clone this repository. Edit the "config.json" file modifying the "paths" field with the name of the framework with which you execute the experiment. Additionally, you have to decomment the relative two lines of codes inside the "adb.py" file relative to the framework you are executing (in the main function). For example, if you are running the AngularJS framework, you may modify the "config.json" file, by adding "AngularJS" as the path and decomment the following lines of code inside the "adb.py" file:
+Once all the frameworks have been run, please go to the [AndroidRunner repository](https://github.com/S2-group/android-runner) and refer to the section "Install" in order to check all the techonologies you need. Then, in order to execute the experiment, clone this repository. Edit the "config.json" file modifying the "paths" field with the name of the framework with which you execute the experiment. Additionally, you have to decomment the relative two lines of codes inside the "adb.py" file relative to the framework you are executing (in the main function). You can find these two files inside the folder android-runner/examples/web.
+<br />
+For example, if you are running the AngularJS framework, you may modify the "config.json" file, by adding "AngularJS" as the path and decomment the following lines of code inside the "adb.py" file:
 `#angularJS = Scenario("http://192.168.43.164:4000", 1105, 327, 621, 579, 621, 704, 924, 776, 968, 324, 403, 436, 525, 1139, 457, 1330, 599)`
 <br />
 `#angularJS.processUrl()`
