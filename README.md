@@ -1,4 +1,4 @@
-# Web front-end frameworks impact on energy consumption.
+# Web front-end frameworks impact on energy consumption
 
 ## Introduction
 
