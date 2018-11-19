@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In   the   modern   age   of   information   and   communication systems,  traditional  desktop  applications  have  moved  to  the cloud. The need for applications to be cross-platform and offer mobile  device  support,  has  gotten  the  user  interface  to  lie  inits  entirety  through  the  window  of  a  web  browser.
+In   the   modern   age   of   information   and   communication systems,  traditional  desktop  applications  have  moved  to  the cloud. The need for applications to be cross-platform and offer mobile  device  support,  has  gotten  the  user  interface  to  lie  in its  entirety  through  the  window  of  a  web  browser.
 
 This rapid  growth  and  expansion  of  mobile  devices  has  pushed software developers to explore, evaluate and experiment with several  web  front-end  frameworks  necessary  for  mobile  web application development. During  the  recent  years,  an  abundance  of  front-end  web development  frameworks  have  been  introduced  to  the  market, as an answer to the tedious process of having to tweak the web application front-end to  also have  the  desired  look  on  mobile. Apart  from  the  look  and  feel,  developers  want  to  know which web front-end frameworks are optimized and offer great performance. Developers are constantly looking for web front-end frameworks that consume less battery in users' devices. As   mobile   software   applications   operate   in   resource-constrained environments, guidelines to build energy efficient applications  are  of  utmost  importance.
 
